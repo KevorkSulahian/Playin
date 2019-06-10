@@ -1,0 +1,7 @@
+Problems will be about Classification: 
+- measures, ROC curves, precision-recall curves, 
+- logistic regression, LDA, QDA, K-NN, 
+- decision trees, bagging, boosting, and random forests. 
+
+No problems on unsupervised learning.
+
