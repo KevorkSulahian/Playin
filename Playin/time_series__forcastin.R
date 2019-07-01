@@ -67,4 +67,4 @@ ts.plot(AirPassengers,2.718^pred$pred, log = "y", lty = c(1,3))
 
 
 
-
+AirPassengers
