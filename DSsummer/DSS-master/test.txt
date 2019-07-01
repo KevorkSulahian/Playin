@@ -1,0 +1,3 @@
+purple alice@gmail.com, red bob@abc.com
+green ann@it.com, yellow bob@abc.com
+blue van@data.com
