@@ -129,3 +129,81 @@ extremes_avg <- function(x) {
   return((min(x) + max(x)) / 2)
 }
 sapply(temp, extremes_avg)
+
+
+## Day 2
+
+library(gapminder)
+library(dplyr)
+
+data(gapminder)
+
+gapminder %>%
+  filter(year == 1952, country == 'Syria')
+
+gapminder %>%
+  arrange(desc(continent))
+
+gapminder %>%
+  arrange(lifeExp)
+
+gapminder %>%
+  arrange(desc(lifeExp))
+
+gapminder %>%
+  filter(year == "1957") %>%
+  arrange(pop)
+
+gapminder %>%
+  filter(year == 2007) %>%
+  mutate(lifeExpMonths = lifeExp * 12) %>%
+  arrange(desc(lifeExpMonths))
+
+library(ggplot2)
+
+gapminder_2007 <-gapminder %>%
+  filter(year==2007)
+
+ggplot(gapminder_2007, aes(gdpPercap, lifeExp, color = lifeExp)) + geom_point()
+
+yeet <- gapminder %>%
+  filter(year == 1952)
+
+ggplot(yeet,aes(pop,gdpPercap, color= continent)) + geom_point() +
+  scale_x_log10() + facet_wrap(~ continent)
+
+ggplot(gapminder, aes(x = gdpPercap, y = lifeExp, color = continent, size = pop)) +  
+  geom_point() +  
+  scale_x_log10() +  
+  facet_wrap(~ year)
+
+
+gapminder %>%  
+  summarize(medianLifeExp = median(lifeExp))
+
+
+gapminder %>%
+  group_by(continent) %>%
+  filter(year == 1957) %>%
+  summarize(medianLifeExp = median(lifeExp),
+            maxGdpPercap = max(gdpPercap))
+
+by_year <- gapminder %>%  
+  group_by(year) %>%  
+  summarize(medianLifeExp = median(lifeExp),            
+            maxGdpPercap = max(gdpPercap))
+
+
+ggplot(by_year, aes(x = year, y = medianLifeExp)) +  
+  geom_point() +  
+  expand_limits(y = 0)
+
+by_year_continent <- gapminder %>%  
+  group_by(continent, year) %>%  
+  summarize(medianGdpPercap = median(gdpPercap))
+
+
+ggplot(by_year_continent, 
+       aes(x = year, y = medianGdpPercap , color = continent)) +  
+  geom_point() +  
+  expand_limits(y = 0)

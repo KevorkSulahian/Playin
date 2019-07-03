@@ -1,0 +1,909 @@
+ID,gender,age,agecat,ed,edcat,jobcat,empcat,retire,income,inccat,debtinc,jobsat,marital,homeown,card,default
+1,Female,20,18-24,15,Some college,Managerial and Professional,Less than 2,No,31,$25 - $49,11.1,Highly dissatisfied,Unmarried,Rent,Mastercard,Yes
+2,Male,22,18-24,17,College degree,Sales and Office,Less than 2,No,15,Under $25,18.6,Highly dissatisfied,Unmarried,Own,Visa,Yes
+3,Female,67,65+,14,High school degree,Sales and Office,More than 15,No,35,$25 - $49,9.9,Somewhat satisfied,Married,Own,Visa,No
+4,Male,26,25-34,16,Some college,Sales and Office,Less than 2,No,23,Under $25,1.7,Highly dissatisfied,Married,Rent,Discover,No
+5,Female,52,50-64,14,High school degree,Managerial and Professional,6 to 10,No,77,$75 - $124,1.9,Somewhat dissatisfied,Unmarried,Rent,Other,No
+6,Female,44,35-49,16,Some college,Managerial and Professional,11 to 15,No,97,$75 - $124,14.4,Highly satisfied,Married,Own,American Express,No
+7,Male,47,35-49,11,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,No,84,$75 - $124,4.1,Somewhat satisfied,Unmarried,Own,Other,No
+8,Female,59,50-64,19,College degree,Managerial and Professional,6 to 10,No,47,$25 - $49,8.6,Neutral,Unmarried,Rent,Discover,No
+9,Female,33,25-34,8,Did not complete high school,Sales and Office,2 to 5,No,19,Under $25,0.9,Somewhat satisfied,Married,Rent,Mastercard,No
+10,Male,44,35-49,10,Did not complete high school,Managerial and Professional,11 to 15,No,73,$50 - $74,2.8,Highly satisfied,Unmarried,Own,Discover,No
+11,Female,72,65+,20,Post-undergraduate degree,Agricultural and Natural Resources,More than 15,Yes,17,Under $25,9.8,Somewhat satisfied,Married,Own,Mastercard,No
+12,Female,66,65+,13,High school degree,"Operation, Fabrication, General Labor",More than 15,Yes,23,Under $25,9.3,Highly satisfied,Married,Rent,Mastercard,No
+13,Female,57,50-64,17,College degree,Agricultural and Natural Resources,More than 15,No,171,$125+,9.5,Highly satisfied,Married,Own,Discover,No
+14,Male,63,50-64,14,High school degree,"Operation, Fabrication, General Labor",More than 15,No,424,$125+,10.7,Somewhat satisfied,Married,Own,Mastercard,No
+15,Female,78,65+,16,Some college,Managerial and Professional,6 to 10,Yes,22,Under $25,15.2,Neutral,Unmarried,Rent,Visa,No
+16,Male,61,50-64,16,Some college,Managerial and Professional,2 to 5,No,35,$25 - $49,10.1,Neutral,Married,Rent,American Express,No
+17,Male,70,65+,17,College degree,Sales and Office,2 to 5,No,28,$25 - $49,9.3,Highly dissatisfied,Married,Rent,American Express,No
+18,Male,61,50-64,14,High school degree,"Operation, Fabrication, General Labor",More than 15,Yes,12,Under $25,21.5,Highly satisfied,Unmarried,Own,American Express,Yes
+19,Male,39,35-49,12,High school degree,Managerial and Professional,2 to 5,No,130,$125+,11.3,Highly satisfied,Married,Own,Discover,No
+20,Female,73,65+,14,High school degree,Service,More than 15,Yes,69,$50 - $74,14.8,Neutral,Married,Rent,Visa,No
+21,Female,26,25-34,16,Some college,Sales and Office,Less than 2,No,24,Under $25,11.7,Somewhat dissatisfied,Married,Rent,Discover,Yes
+22,Female,77,65+,15,Some college,Managerial and Professional,More than 15,Yes,11,Under $25,10.2,Highly satisfied,Unmarried,Own,Visa,No
+23,Male,36,35-49,19,College degree,Managerial and Professional,2 to 5,No,30,$25 - $49,15.5,Somewhat satisfied,Unmarried,Own,American Express,No
+24,Male,55,50-64,14,High school degree,Service,More than 15,No,80,$75 - $124,6.5,Highly satisfied,Unmarried,Own,Visa,No
+25,Female,60,50-64,18,College degree,Managerial and Professional,11 to 15,No,51,$50 - $74,7.8,Highly satisfied,Married,Rent,Discover,No
+26,Male,28,25-34,11,Did not complete high school,Sales and Office,Less than 2,No,17,Under $25,8.2,Somewhat dissatisfied,Married,Rent,Mastercard,Yes
+27,Male,36,35-49,12,High school degree,Sales and Office,2 to 5,No,45,$25 - $49,8.3,Somewhat satisfied,Unmarried,Rent,Discover,Yes
+28,Male,47,35-49,20,Post-undergraduate degree,"Precision Production, Craft, Repair",More than 15,No,137,$125+,13.7,Somewhat satisfied,Married,Own,American Express,No
+29,Male,75,65+,11,Did not complete high school,Sales and Office,2 to 5,Yes,10,Under $25,2.4,Somewhat dissatisfied,Unmarried,Rent,Discover,No
+30,Female,49,35-49,22,Post-undergraduate degree,Managerial and Professional,2 to 5,No,73,$50 - $74,9.2,Neutral,Married,Own,Discover,No
+31,Female,59,50-64,13,High school degree,Managerial and Professional,11 to 15,No,63,$50 - $74,6,Neutral,Unmarried,Rent,Discover,No
+32,Female,55,50-64,12,High school degree,Service,6 to 10,No,50,$50 - $74,5.1,Somewhat dissatisfied,Married,Own,American Express,No
+33,Male,47,35-49,19,College degree,Sales and Office,Less than 2,No,75,$75 - $124,2.2,Somewhat satisfied,Married,Rent,American Express,Yes
+34,Male,75,65+,10,Did not complete high school,Sales and Office,11 to 15,No,28,$25 - $49,3.3,Somewhat dissatisfied,Married,Own,American Express,No
+35,Female,43,35-49,19,College degree,Sales and Office,2 to 5,No,33,$25 - $49,12.6,Highly dissatisfied,Married,Own,Discover,No
+36,Male,45,35-49,10,Did not complete high school,"Operation, Fabrication, General Labor",11 to 15,No,44,$25 - $49,13.6,Somewhat dissatisfied,Married,Own,Mastercard,No
+37,Male,53,50-64,21,Post-undergraduate degree,Service,More than 15,No,284,$125+,9.4,Somewhat dissatisfied,Unmarried,Own,Discover,Yes
+38,Female,30,25-34,13,High school degree,"Operation, Fabrication, General Labor",6 to 10,No,49,$25 - $49,2.1,Somewhat satisfied,Unmarried,Own,Visa,No
+39,Female,58,50-64,19,College degree,"Operation, Fabrication, General Labor",More than 15,Yes,15,Under $25,7.6,Highly satisfied,Unmarried,Rent,Mastercard,No
+40,Male,35,35-49,11,Did not complete high school,Managerial and Professional,2 to 5,No,17,Under $25,2.3,Somewhat dissatisfied,Married,Own,Discover,Yes
+41,Female,48,35-49,14,High school degree,Managerial and Professional,11 to 15,No,83,$75 - $124,11.3,Neutral,Married,Own,Discover,No
+42,Female,57,50-64,15,Some college,Managerial and Professional,6 to 10,No,82,$75 - $124,34.2,Highly satisfied,Unmarried,Own,Mastercard,Yes
+43,Female,56,50-64,19,College degree,Managerial and Professional,6 to 10,No,138,$125+,7,Somewhat satisfied,Married,Rent,Discover,No
+44,Female,29,25-34,17,College degree,Sales and Office,Less than 2,No,35,$25 - $49,5.7,Somewhat satisfied,Married,Rent,Mastercard,No
+45,Female,46,35-49,10,Did not complete high school,Managerial and Professional,2 to 5,No,25,$25 - $49,7.7,Somewhat satisfied,Unmarried,Rent,Visa,No
+46,Male,24,18-24,17,College degree,Managerial and Professional,Less than 2,No,33,$25 - $49,3.9,Highly dissatisfied,Married,Own,Discover,No
+47,Female,78,65+,16,Some college,Sales and Office,More than 15,Yes,32,$25 - $49,23.1,Highly satisfied,Married,Rent,Visa,No
+48,Male,73,65+,10,Did not complete high school,Managerial and Professional,More than 15,Yes,16,Under $25,3,Somewhat satisfied,Married,Rent,American Express,No
+49,Female,26,25-34,20,Post-undergraduate degree,Managerial and Professional,Less than 2,No,64,$50 - $74,3.9,Somewhat satisfied,Unmarried,Rent,Discover,Yes
+50,Female,44,35-49,15,Some college,Service,6 to 10,No,31,$25 - $49,14.8,Somewhat satisfied,Unmarried,Rent,American Express,No
+51,Male,30,25-34,12,High school degree,Sales and Office,Less than 2,No,18,Under $25,14.5,Somewhat dissatisfied,Married,Rent,Visa,No
+52,Male,44,35-49,8,Did not complete high school,Sales and Office,6 to 10,No,41,$25 - $49,3.1,Neutral,Unmarried,Rent,Visa,No
+53,Female,21,18-24,12,High school degree,Service,Less than 2,No,22,Under $25,2.7,Highly dissatisfied,Married,Own,Other,Yes
+54,Female,62,50-64,9,Did not complete high school,"Precision Production, Craft, Repair",More than 15,Yes,14,Under $25,15,Highly dissatisfied,Married,Own,Visa,No
+55,Male,65,65+,17,College degree,Sales and Office,6 to 10,No,91,$75 - $124,0.3,Neutral,Unmarried,Own,American Express,No
+56,Male,38,35-49,16,Some college,"Operation, Fabrication, General Labor",6 to 10,No,74,$50 - $74,4.7,Somewhat dissatisfied,Married,Own,American Express,No
+57,Female,34,25-34,15,Some college,Sales and Office,2 to 5,No,46,$25 - $49,2.1,Somewhat satisfied,Unmarried,Own,American Express,No
+58,Male,78,65+,20,Post-undergraduate degree,Managerial and Professional,11 to 15,Yes,14,Under $25,8.2,Neutral,Married,Own,Discover,Yes
+59,Female,47,35-49,10,Did not complete high school,Service,More than 15,No,68,$50 - $74,22,Highly satisfied,Unmarried,Own,Visa,Yes
+60,Female,60,50-64,19,College degree,"Operation, Fabrication, General Labor",More than 15,No,101,$75 - $124,7.2,Somewhat satisfied,Married,Rent,American Express,No
+61,Female,61,50-64,17,College degree,Managerial and Professional,6 to 10,No,121,$75 - $124,9.1,Neutral,Married,Own,Visa,No
+62,Female,77,65+,11,Did not complete high school,Service,More than 15,Yes,19,Under $25,15.3,Somewhat dissatisfied,Unmarried,Rent,Mastercard,No
+63,Female,21,18-24,16,Some college,"Precision Production, Craft, Repair",Less than 2,No,30,$25 - $49,13.5,Highly dissatisfied,Married,Own,Discover,Yes
+64,Female,31,25-34,19,College degree,Managerial and Professional,Less than 2,No,43,$25 - $49,2.1,Highly satisfied,Unmarried,Rent,Discover,Yes
+65,Female,27,25-34,20,Post-undergraduate degree,Sales and Office,Less than 2,No,42,$25 - $49,16.4,Highly dissatisfied,Married,Rent,Discover,No
+66,Male,64,50-64,10,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,No,327,$125+,11.7,Highly satisfied,Married,Rent,American Express,No
+67,Male,72,65+,18,College degree,Managerial and Professional,6 to 10,No,30,$25 - $49,6.9,Somewhat satisfied,Married,Own,Visa,No
+68,Male,66,65+,16,Some college,Managerial and Professional,More than 15,Yes,96,$75 - $124,15.6,Highly satisfied,Married,Own,Visa,No
+69,Male,55,50-64,16,Some college,"Precision Production, Craft, Repair",More than 15,No,143,$125+,10.9,Neutral,Unmarried,Own,American Express,No
+70,Female,20,18-24,15,Some college,Sales and Office,Less than 2,No,25,$25 - $49,6.8,Somewhat dissatisfied,Unmarried,Rent,Discover,Yes
+71,Male,59,50-64,18,College degree,Sales and Office,6 to 10,No,68,$50 - $74,6.5,Somewhat satisfied,Unmarried,Rent,Discover,No
+72,Female,48,35-49,19,College degree,Service,6 to 10,No,70,$50 - $74,8.6,Highly dissatisfied,Married,Own,Visa,No
+73,Male,60,50-64,13,High school degree,"Operation, Fabrication, General Labor",More than 15,No,101,$75 - $124,3.6,Somewhat satisfied,Unmarried,Own,American Express,No
+74,Female,42,35-49,19,College degree,Sales and Office,2 to 5,No,36,$25 - $49,7.6,Somewhat dissatisfied,Married,Rent,Discover,No
+75,Female,35,35-49,19,College degree,Sales and Office,2 to 5,No,65,$50 - $74,8.2,Highly dissatisfied,Married,Own,Visa,No
+76,Male,24,18-24,10,Did not complete high school,Sales and Office,Less than 2,No,20,Under $25,4.6,Highly dissatisfied,Unmarried,Rent,Visa,No
+77,Female,25,25-34,19,College degree,"Operation, Fabrication, General Labor",Less than 2,No,40,$25 - $49,8.6,Highly dissatisfied,Married,Rent,American Express,Yes
+78,Male,79,65+,16,Some college,"Operation, Fabrication, General Labor",More than 15,Yes,58,$50 - $74,16.8,Neutral,Unmarried,Own,Visa,No
+79,Female,20,18-24,15,Some college,Sales and Office,Less than 2,No,27,$25 - $49,3.7,Neutral,Married,Own,Other,Yes
+80,Female,27,25-34,17,College degree,"Operation, Fabrication, General Labor",2 to 5,No,48,$25 - $49,4.2,Highly dissatisfied,Married,Own,Visa,No
+81,Male,53,50-64,12,High school degree,Managerial and Professional,11 to 15,No,99,$75 - $124,17.3,Somewhat dissatisfied,Unmarried,Rent,American Express,No
+82,Male,57,50-64,14,High school degree,Managerial and Professional,11 to 15,No,108,$75 - $124,5.9,Neutral,Unmarried,Own,Visa,No
+83,Female,51,50-64,15,Some college,Service,More than 15,No,174,$125+,15.7,Somewhat satisfied,Married,Own,Discover,Yes
+84,Male,69,65+,13,High school degree,Sales and Office,6 to 10,Yes,12,Under $25,1.1,Neutral,Married,Own,American Express,Yes
+85,Male,19,18-24,14,High school degree,Service,Less than 2,No,15,Under $25,9.7,Highly dissatisfied,Married,Own,Mastercard,Yes
+86,Female,71,65+,8,Did not complete high school,Service,More than 15,No,60,$50 - $74,9.3,Somewhat satisfied,Unmarried,Own,Visa,No
+87,Female,39,35-49,17,College degree,Managerial and Professional,2 to 5,No,42,$25 - $49,28.6,Somewhat dissatisfied,Married,Own,Discover,Yes
+88,Female,20,18-24,14,High school degree,Managerial and Professional,Less than 2,No,25,$25 - $49,1.9,Highly dissatisfied,Unmarried,Own,Mastercard,No
+89,Male,35,35-49,12,High school degree,"Operation, Fabrication, General Labor",11 to 15,No,33,$25 - $49,10.4,Highly satisfied,Married,Rent,American Express,No
+90,Female,68,65+,14,High school degree,Service,More than 15,Yes,9,Under $25,16,Somewhat dissatisfied,Unmarried,Rent,Discover,Yes
+91,Female,45,35-49,10,Did not complete high school,Managerial and Professional,2 to 5,No,41,$25 - $49,3.7,Somewhat satisfied,Married,Own,Visa,No
+92,Female,20,18-24,13,High school degree,"Precision Production, Craft, Repair",Less than 2,No,21,Under $25,13,Highly dissatisfied,Married,Rent,Visa,No
+93,Female,56,50-64,17,College degree,Sales and Office,6 to 10,No,104,$75 - $124,0.9,Somewhat dissatisfied,Married,Rent,Mastercard,No
+94,Male,55,50-64,10,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,No,149,$125+,5.1,Somewhat satisfied,Married,Own,Mastercard,No
+95,Female,75,65+,11,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,20,Under $25,10.8,Somewhat dissatisfied,Married,Rent,Mastercard,No
+96,Male,46,35-49,13,High school degree,"Operation, Fabrication, General Labor",11 to 15,No,213,$125+,3.5,Highly satisfied,Married,Own,Mastercard,No
+97,Female,64,50-64,11,Did not complete high school,Sales and Office,2 to 5,No,19,Under $25,3.9,Neutral,Unmarried,Own,Mastercard,No
+98,Male,35,35-49,15,Some college,Managerial and Professional,2 to 5,No,65,$50 - $74,3.7,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+99,Female,38,35-49,14,High school degree,Sales and Office,2 to 5,No,45,$25 - $49,3.2,Neutral,Married,Own,American Express,No
+100,Male,45,35-49,13,High school degree,"Operation, Fabrication, General Labor",11 to 15,No,59,$50 - $74,4.6,Somewhat dissatisfied,Married,Own,Visa,No
+101,Female,64,50-64,10,Did not complete high school,Service,11 to 15,No,35,$25 - $49,6.1,Neutral,Unmarried,Own,Discover,No
+102,Female,59,50-64,17,College degree,Managerial and Professional,11 to 15,No,88,$75 - $124,3.3,Neutral,Married,Rent,American Express,No
+103,Male,79,65+,17,College degree,Sales and Office,11 to 15,Yes,13,Under $25,3.2,Neutral,Married,Rent,Mastercard,No
+104,Male,44,35-49,18,College degree,Managerial and Professional,6 to 10,No,78,$75 - $124,1.7,Somewhat dissatisfied,Unmarried,Own,American Express,No
+105,Female,51,50-64,17,College degree,Sales and Office,6 to 10,No,38,$25 - $49,7,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+106,Female,36,35-49,16,Some college,Managerial and Professional,2 to 5,No,45,$25 - $49,16.8,Somewhat satisfied,Married,Rent,Discover,Yes
+107,Male,18,18-24,13,High school degree,Sales and Office,Less than 2,No,19,Under $25,6.3,Highly dissatisfied,Unmarried,Rent,Visa,Yes
+108,Female,40,35-49,22,Post-undergraduate degree,Service,6 to 10,No,31,$25 - $49,10.6,Somewhat satisfied,Married,Own,Visa,No
+109,Female,78,65+,15,Some college,"Operation, Fabrication, General Labor",More than 15,Yes,20,Under $25,12.2,Neutral,Unmarried,Rent,Visa,No
+110,Female,40,35-49,12,High school degree,Managerial and Professional,2 to 5,No,36,$25 - $49,11.3,Somewhat dissatisfied,Unmarried,Rent,American Express,No
+111,Male,37,35-49,9,Did not complete high school,Sales and Office,2 to 5,No,16,Under $25,10.7,Somewhat dissatisfied,Unmarried,Rent,American Express,No
+112,Male,25,25-34,16,Some college,Sales and Office,Less than 2,No,20,Under $25,19.7,Highly dissatisfied,Unmarried,Own,American Express,Yes
+113,Female,72,65+,15,Some college,Sales and Office,More than 15,No,69,$50 - $74,6.6,Neutral,Unmarried,Own,Mastercard,No
+114,Male,74,65+,10,Did not complete high school,Managerial and Professional,More than 15,No,60,$50 - $74,8.5,Neutral,Married,Own,Other,Yes
+115,Male,62,50-64,8,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,No,115,$75 - $124,5.3,Highly dissatisfied,Married,Own,Visa,No
+116,Female,77,65+,15,Some college,Service,More than 15,Yes,15,Under $25,2.5,Highly satisfied,Married,Own,Mastercard,No
+117,Female,28,25-34,14,High school degree,"Operation, Fabrication, General Labor",2 to 5,No,33,$25 - $49,8.8,Somewhat satisfied,Married,Own,Mastercard,No
+118,Female,42,35-49,15,Some college,"Precision Production, Craft, Repair",More than 15,No,67,$50 - $74,9.4,Highly satisfied,Married,Own,Discover,No
+119,Female,49,35-49,15,Some college,"Precision Production, Craft, Repair",More than 15,No,118,$75 - $124,8.1,Somewhat satisfied,Unmarried,Rent,Visa,No
+120,Female,66,65+,14,High school degree,"Operation, Fabrication, General Labor",More than 15,Yes,9,Under $25,15.6,Somewhat dissatisfied,Unmarried,Own,Visa,No
+121,Male,34,25-34,20,Post-undergraduate degree,Agricultural and Natural Resources,6 to 10,No,36,$25 - $49,18.4,Neutral,Unmarried,Rent,Discover,No
+122,Male,35,35-49,15,Some college,"Operation, Fabrication, General Labor",2 to 5,No,81,$75 - $124,11.1,Highly dissatisfied,Unmarried,Own,American Express,No
+123,Female,32,25-34,11,Did not complete high school,"Operation, Fabrication, General Labor",6 to 10,No,35,$25 - $49,2.8,Highly satisfied,Unmarried,Own,Visa,No
+124,Male,44,35-49,9,Did not complete high school,Sales and Office,2 to 5,No,33,$25 - $49,12,Somewhat satisfied,Married,Own,Visa,No
+125,Male,71,65+,14,High school degree,"Operation, Fabrication, General Labor",More than 15,No,179,$125+,24.6,Highly satisfied,Unmarried,Own,Discover,Yes
+126,Female,70,65+,19,College degree,Sales and Office,2 to 5,No,64,$50 - $74,9.4,Neutral,Married,Own,Discover,No
+127,Female,28,25-34,18,College degree,"Operation, Fabrication, General Labor",2 to 5,No,47,$25 - $49,25,Neutral,Married,Own,Visa,Yes
+128,Male,43,35-49,16,Some college,Sales and Office,2 to 5,No,39,$25 - $49,10.2,Somewhat dissatisfied,Unmarried,Own,Visa,Yes
+129,Female,70,65+,13,High school degree,Service,More than 15,Yes,10,Under $25,0.6,Highly satisfied,Unmarried,Rent,Other,No
+130,Female,65,65+,11,Did not complete high school,Managerial and Professional,11 to 15,No,116,$75 - $124,16.8,Neutral,Unmarried,Rent,Mastercard,No
+131,Female,76,65+,16,Some college,Sales and Office,6 to 10,Yes,20,Under $25,4.9,Somewhat satisfied,Unmarried,Rent,Discover,No
+132,Female,67,65+,14,High school degree,"Operation, Fabrication, General Labor",More than 15,No,97,$75 - $124,6.7,Highly satisfied,Unmarried,Rent,Discover,No
+133,Female,57,50-64,9,Did not complete high school,Service,More than 15,No,149,$125+,2.5,Highly satisfied,Unmarried,Own,Discover,No
+134,Male,66,65+,18,College degree,Managerial and Professional,More than 15,No,65,$50 - $74,31.2,Highly satisfied,Married,Own,American Express,No
+135,Female,67,65+,15,Some college,Service,More than 15,Yes,10,Under $25,11.4,Highly satisfied,Married,Own,Visa,No
+136,Male,18,18-24,13,High school degree,Sales and Office,Less than 2,No,19,Under $25,15.9,Somewhat dissatisfied,Married,Rent,Mastercard,Yes
+137,Female,58,50-64,13,High school degree,Managerial and Professional,6 to 10,No,30,$25 - $49,11.3,Somewhat satisfied,Unmarried,Own,Visa,No
+138,Male,64,50-64,22,Post-undergraduate degree,Sales and Office,6 to 10,Yes,57,$50 - $74,11.5,Somewhat dissatisfied,Unmarried,Rent,Discover,No
+139,Female,42,35-49,13,High school degree,Service,More than 15,No,124,$75 - $124,6.7,Somewhat satisfied,Married,Own,Mastercard,No
+140,Female,59,50-64,10,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,No,67,$50 - $74,12.5,Highly satisfied,Unmarried,Rent,Other,No
+141,Female,62,50-64,18,College degree,"Precision Production, Craft, Repair",More than 15,No,207,$125+,6.5,Highly satisfied,Married,Own,Visa,No
+142,Female,38,35-49,21,Post-undergraduate degree,Sales and Office,Less than 2,No,40,$25 - $49,4.8,Neutral,Married,Own,Discover,Yes
+143,Male,37,35-49,19,College degree,"Operation, Fabrication, General Labor",2 to 5,No,67,$50 - $74,6,Neutral,Unmarried,Own,Visa,No
+144,Female,32,25-34,13,High school degree,"Operation, Fabrication, General Labor",6 to 10,No,40,$25 - $49,10.1,Somewhat satisfied,Married,Rent,Visa,No
+145,Male,40,35-49,19,College degree,"Operation, Fabrication, General Labor",6 to 10,No,93,$75 - $124,23.2,Neutral,Married,Own,Mastercard,Yes
+146,Female,27,25-34,12,High school degree,Sales and Office,2 to 5,No,19,Under $25,4.8,Highly dissatisfied,Unmarried,Rent,Mastercard,No
+147,Female,55,50-64,16,Some college,Sales and Office,6 to 10,No,55,$50 - $74,23.7,Somewhat satisfied,Unmarried,Rent,Discover,No
+148,Male,26,25-34,13,High school degree,Sales and Office,Less than 2,No,25,$25 - $49,4.6,Highly satisfied,Unmarried,Own,Mastercard,No
+149,Male,70,65+,9,Did not complete high school,Managerial and Professional,More than 15,No,63,$50 - $74,11.2,Somewhat satisfied,Married,Own,American Express,No
+150,Male,43,35-49,13,High school degree,Sales and Office,2 to 5,No,64,$50 - $74,9.7,Neutral,Married,Own,American Express,Yes
+151,Female,59,50-64,21,Post-undergraduate degree,Managerial and Professional,11 to 15,No,182,$125+,4.8,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+152,Male,35,35-49,20,Post-undergraduate degree,Managerial and Professional,Less than 2,No,35,$25 - $49,12.3,Somewhat dissatisfied,Married,Own,American Express,Yes
+153,Male,53,50-64,22,Post-undergraduate degree,"Operation, Fabrication, General Labor",More than 15,No,52,$50 - $74,14.4,Highly satisfied,Married,Own,American Express,No
+154,Male,20,18-24,14,High school degree,Service,Less than 2,No,22,Under $25,17.2,Highly dissatisfied,Unmarried,Rent,Mastercard,Yes
+155,Female,57,50-64,14,High school degree,Sales and Office,2 to 5,No,47,$25 - $49,7.3,Highly dissatisfied,Married,Own,Discover,No
+156,Male,74,65+,11,Did not complete high school,"Precision Production, Craft, Repair",More than 15,No,108,$75 - $124,17.9,Highly satisfied,Unmarried,Own,Mastercard,No
+157,Female,76,65+,18,College degree,"Operation, Fabrication, General Labor",More than 15,Yes,149,$125+,3.3,Somewhat satisfied,Unmarried,Own,American Express,No
+158,Female,41,35-49,12,High school degree,Managerial and Professional,11 to 15,No,52,$50 - $74,10.6,Somewhat satisfied,Unmarried,Rent,Mastercard,No
+159,Male,47,35-49,14,High school degree,Service,More than 15,No,78,$75 - $124,3.4,Highly dissatisfied,Married,Own,Visa,No
+160,Female,36,35-49,11,Did not complete high school,Agricultural and Natural Resources,11 to 15,No,34,$25 - $49,7,Neutral,Married,Own,Visa,No
+161,Male,77,65+,7,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,19,Under $25,4.9,Neutral,Unmarried,Own,Other,No
+162,Male,78,65+,19,College degree,Service,More than 15,Yes,44,$25 - $49,3.3,Somewhat dissatisfied,Married,Rent,American Express,No
+163,Male,42,35-49,12,High school degree,Sales and Office,2 to 5,No,36,$25 - $49,12.9,Somewhat dissatisfied,Unmarried,Rent,Visa,Yes
+164,Female,63,50-64,12,High school degree,Sales and Office,6 to 10,No,44,$25 - $49,11.4,Somewhat satisfied,Married,Rent,American Express,No
+165,Female,20,18-24,15,Some college,Sales and Office,Less than 2,No,20,Under $25,3.2,Highly dissatisfied,Unmarried,Own,Visa,Yes
+166,Female,30,25-34,10,Did not complete high school,Managerial and Professional,6 to 10,No,37,$25 - $49,3.5,Somewhat dissatisfied,Unmarried,Rent,Other,Yes
+167,Male,18,18-24,11,Did not complete high school,"Operation, Fabrication, General Labor",Less than 2,No,19,Under $25,15.1,Highly dissatisfied,Unmarried,Rent,American Express,Yes
+168,Female,26,25-34,16,Some college,Agricultural and Natural Resources,Less than 2,No,19,Under $25,11.4,Somewhat dissatisfied,Married,Rent,Discover,Yes
+169,Male,66,65+,15,Some college,Managerial and Professional,More than 15,Yes,42,$25 - $49,5.6,Highly satisfied,Unmarried,Own,Mastercard,No
+170,Female,64,50-64,15,Some college,Sales and Office,2 to 5,No,54,$50 - $74,3,Somewhat dissatisfied,Unmarried,Own,American Express,Yes
+171,Female,34,25-34,17,College degree,Sales and Office,2 to 5,No,37,$25 - $49,4.7,Highly dissatisfied,Married,Rent,Mastercard,No
+172,Male,22,18-24,13,High school degree,Sales and Office,Less than 2,No,15,Under $25,1.1,Highly dissatisfied,Unmarried,Rent,Mastercard,No
+173,Female,35,35-49,17,College degree,"Operation, Fabrication, General Labor",6 to 10,No,50,$50 - $74,3.6,Neutral,Unmarried,Rent,American Express,No
+174,Female,53,50-64,11,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,No,132,$125+,3.5,Neutral,Married,Own,Visa,No
+175,Male,46,35-49,17,College degree,Managerial and Professional,11 to 15,No,102,$75 - $124,8.8,Highly satisfied,Unmarried,Rent,Discover,No
+176,Female,62,50-64,11,Did not complete high school,"Precision Production, Craft, Repair",More than 15,No,136,$125+,14.2,Highly satisfied,Married,Own,American Express,No
+177,Female,21,18-24,16,Some college,"Operation, Fabrication, General Labor",Less than 2,No,14,Under $25,9.2,Somewhat satisfied,Unmarried,Own,Mastercard,Yes
+178,Male,64,50-64,9,Did not complete high school,Managerial and Professional,More than 15,No,88,$75 - $124,12,Highly satisfied,Unmarried,Own,Visa,No
+179,Female,76,65+,10,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,13,Under $25,24.8,Somewhat satisfied,Unmarried,Own,Visa,No
+180,Male,74,65+,12,High school degree,"Precision Production, Craft, Repair",More than 15,Yes,9,Under $25,5.6,Somewhat satisfied,Married,Own,American Express,No
+181,Male,35,35-49,9,Did not complete high school,Managerial and Professional,2 to 5,No,17,Under $25,18.8,Somewhat dissatisfied,Unmarried,Rent,Other,No
+182,Male,29,25-34,12,High school degree,Managerial and Professional,2 to 5,No,22,Under $25,5.1,Neutral,Married,Own,Discover,No
+183,Male,32,25-34,16,Some college,Service,2 to 5,No,42,$25 - $49,6.7,Somewhat satisfied,Married,Own,Visa,No
+184,Male,54,50-64,15,Some college,Managerial and Professional,2 to 5,No,38,$25 - $49,9,Somewhat dissatisfied,Married,Own,Mastercard,Yes
+185,Female,62,50-64,17,College degree,Sales and Office,2 to 5,No,66,$50 - $74,7.9,Somewhat dissatisfied,Married,Rent,Discover,No
+186,Female,18,18-24,13,High school degree,Managerial and Professional,Less than 2,No,19,Under $25,4.1,Somewhat dissatisfied,Married,Rent,Other,No
+187,Female,79,65+,12,High school degree,Managerial and Professional,11 to 15,Yes,10,Under $25,6.8,Somewhat dissatisfied,Married,Rent,Mastercard,No
+188,Male,70,65+,14,High school degree,Service,More than 15,Yes,21,Under $25,11.8,Neutral,Married,Rent,Discover,No
+189,Male,42,35-49,17,College degree,Service,11 to 15,No,114,$75 - $124,7,Somewhat satisfied,Unmarried,Own,Discover,No
+190,Female,24,18-24,18,College degree,Service,Less than 2,No,23,Under $25,14.3,Highly dissatisfied,Unmarried,Own,American Express,Yes
+191,Male,26,25-34,16,Some college,Managerial and Professional,Less than 2,No,21,Under $25,3.3,Somewhat satisfied,Married,Own,Discover,No
+192,Female,61,50-64,13,High school degree,"Operation, Fabrication, General Labor",More than 15,No,110,$75 - $124,29.7,Somewhat satisfied,Unmarried,Own,Discover,No
+193,Male,35,35-49,14,High school degree,Managerial and Professional,2 to 5,No,22,Under $25,5.9,Highly dissatisfied,Unmarried,Rent,Discover,No
+194,Female,49,35-49,12,High school degree,Sales and Office,6 to 10,No,36,$25 - $49,14.9,Somewhat dissatisfied,Unmarried,Own,Visa,No
+195,Male,20,18-24,11,Did not complete high school,Managerial and Professional,Less than 2,No,19,Under $25,4.6,Highly dissatisfied,Married,Rent,Discover,No
+196,Male,25,25-34,19,College degree,Service,Less than 2,No,31,$25 - $49,23.4,Somewhat satisfied,Unmarried,Own,Mastercard,Yes
+197,Female,47,35-49,11,Did not complete high school,Managerial and Professional,More than 15,No,66,$50 - $74,15.1,Neutral,Married,Own,American Express,No
+198,Male,66,65+,13,High school degree,"Operation, Fabrication, General Labor",More than 15,Yes,23,Under $25,10.4,Somewhat dissatisfied,Married,Own,Visa,No
+199,Female,18,18-24,13,High school degree,Service,Less than 2,No,15,Under $25,4.9,Somewhat dissatisfied,Married,Own,Mastercard,No
+200,Male,25,25-34,10,Did not complete high school,Agricultural and Natural Resources,6 to 10,No,21,Under $25,8.9,Somewhat satisfied,Married,Own,Discover,No
+201,Female,68,65+,16,Some college,"Operation, Fabrication, General Labor",More than 15,No,237,$125+,5,Neutral,Unmarried,Own,Mastercard,No
+202,Male,49,35-49,15,Some college,Service,More than 15,No,208,$125+,8.3,Somewhat satisfied,Married,Own,American Express,No
+203,Female,26,25-34,17,College degree,Managerial and Professional,Less than 2,No,82,$75 - $124,10.1,Highly satisfied,Married,Own,Mastercard,Yes
+204,Female,62,50-64,13,High school degree,Service,More than 15,No,182,$125+,26.2,Neutral,Unmarried,Own,Other,Yes
+205,Male,20,18-24,15,Some college,"Operation, Fabrication, General Labor",Less than 2,No,17,Under $25,3.9,Highly dissatisfied,Married,Own,American Express,Yes
+206,Female,74,65+,9,Did not complete high school,Managerial and Professional,More than 15,No,62,$50 - $74,10.7,Somewhat satisfied,Unmarried,Own,Discover,No
+207,Female,30,25-34,15,Some college,Service,2 to 5,No,30,$25 - $49,30.6,Neutral,Unmarried,Own,Visa,Yes
+208,Female,64,50-64,11,Did not complete high school,Sales and Office,2 to 5,No,18,Under $25,6.1,Highly dissatisfied,Married,Rent,Discover,No
+209,Male,22,18-24,16,Some college,Sales and Office,Less than 2,No,20,Under $25,3.8,Highly dissatisfied,Unmarried,Rent,American Express,Yes
+210,Male,66,65+,9,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,88,$75 - $124,8.3,Highly satisfied,Unmarried,Own,Visa,No
+211,Male,42,35-49,11,Did not complete high school,"Operation, Fabrication, General Labor",6 to 10,No,46,$25 - $49,11,Somewhat satisfied,Married,Own,American Express,No
+212,Male,45,35-49,23,Post-undergraduate degree,Sales and Office,2 to 5,No,58,$50 - $74,9.6,Highly dissatisfied,Unmarried,Rent,Discover,No
+213,Female,75,65+,16,Some college,Managerial and Professional,6 to 10,No,28,$25 - $49,3.9,Somewhat satisfied,Unmarried,Rent,Mastercard,No
+214,Male,43,35-49,17,College degree,Sales and Office,2 to 5,No,127,$125+,6.9,Somewhat satisfied,Unmarried,Own,Mastercard,No
+215,Female,35,35-49,15,Some college,Sales and Office,Less than 2,No,51,$50 - $74,18.3,Highly dissatisfied,Unmarried,Own,American Express,Yes
+216,Female,31,25-34,13,High school degree,"Operation, Fabrication, General Labor",6 to 10,No,29,$25 - $49,12.4,Highly satisfied,Unmarried,Rent,Discover,Yes
+217,Male,70,65+,18,College degree,Service,More than 15,No,141,$125+,10.7,Highly satisfied,Married,Own,Visa,Yes
+218,Male,22,18-24,17,College degree,Sales and Office,Less than 2,No,20,Under $25,14.9,Somewhat dissatisfied,Married,Rent,Discover,No
+219,Male,42,35-49,17,College degree,Sales and Office,Less than 2,No,30,$25 - $49,9.7,Highly satisfied,Unmarried,Own,Visa,Yes
+220,Female,57,50-64,8,Did not complete high school,Sales and Office,2 to 5,No,19,Under $25,6.8,Highly satisfied,Unmarried,Rent,Other,No
+221,Male,43,35-49,18,College degree,Sales and Office,6 to 10,No,22,Under $25,11,Highly satisfied,Unmarried,Rent,American Express,No
+222,Female,65,65+,13,High school degree,Managerial and Professional,6 to 10,No,55,$50 - $74,21.2,Highly satisfied,Married,Own,Visa,No
+223,Female,66,65+,14,High school degree,"Precision Production, Craft, Repair",More than 15,No,350,$125+,3.9,Highly satisfied,Unmarried,Rent,American Express,No
+224,Female,78,65+,16,Some college,Managerial and Professional,6 to 10,Yes,17,Under $25,9.5,Somewhat dissatisfied,Unmarried,Rent,Visa,No
+225,Female,24,18-24,16,Some college,Managerial and Professional,Less than 2,No,30,$25 - $49,4.4,Highly dissatisfied,Unmarried,Own,Mastercard,No
+226,Female,68,65+,13,High school degree,Managerial and Professional,6 to 10,Yes,10,Under $25,4.2,Highly satisfied,Unmarried,Own,Visa,No
+227,Female,23,18-24,16,Some college,"Precision Production, Craft, Repair",Less than 2,No,26,$25 - $49,2.7,Highly dissatisfied,Married,Own,American Express,Yes
+228,Female,22,18-24,11,Did not complete high school,Managerial and Professional,Less than 2,No,23,Under $25,7.6,Highly dissatisfied,Married,Own,Visa,Yes
+229,Male,26,25-34,12,High school degree,Sales and Office,2 to 5,No,21,Under $25,9.4,Highly dissatisfied,Married,Own,Discover,No
+230,Female,32,25-34,13,High school degree,Sales and Office,2 to 5,No,22,Under $25,5.4,Somewhat satisfied,Married,Own,Mastercard,No
+231,Male,49,35-49,16,Some college,Managerial and Professional,6 to 10,No,60,$50 - $74,3.8,Highly satisfied,Unmarried,Rent,Visa,No
+232,Female,65,65+,11,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,32,$25 - $49,6.9,Neutral,Unmarried,Rent,Visa,No
+233,Female,39,35-49,18,College degree,Managerial and Professional,6 to 10,No,34,$25 - $49,17.3,Somewhat satisfied,Unmarried,Rent,Mastercard,No
+234,Female,25,25-34,18,College degree,Sales and Office,Less than 2,No,37,$25 - $49,1.2,Highly dissatisfied,Unmarried,Own,Discover,Yes
+235,Male,23,18-24,15,Some college,"Operation, Fabrication, General Labor",2 to 5,No,31,$25 - $49,1,Highly dissatisfied,Unmarried,Own,Discover,No
+236,Female,50,50-64,14,High school degree,Service,More than 15,No,59,$50 - $74,6.6,Highly dissatisfied,Unmarried,Rent,American Express,No
+237,Male,49,35-49,13,High school degree,Sales and Office,2 to 5,No,37,$25 - $49,14.3,Highly satisfied,Unmarried,Own,Mastercard,Yes
+238,Male,32,25-34,10,Did not complete high school,Service,6 to 10,No,30,$25 - $49,5.3,Highly dissatisfied,Married,Own,Discover,No
+239,Male,45,35-49,19,College degree,"Precision Production, Craft, Repair",11 to 15,No,83,$75 - $124,5.4,Somewhat satisfied,Unmarried,Own,Visa,No
+240,Female,34,25-34,18,College degree,Sales and Office,2 to 5,No,31,$25 - $49,10.9,Highly dissatisfied,Married,Own,Discover,Yes
+241,Female,19,18-24,14,High school degree,"Operation, Fabrication, General Labor",Less than 2,No,43,$25 - $49,17.9,Highly dissatisfied,Unmarried,Rent,Mastercard,Yes
+242,Female,22,18-24,17,College degree,"Operation, Fabrication, General Labor",Less than 2,No,19,Under $25,3.5,Highly dissatisfied,Married,Own,Visa,No
+243,Female,30,25-34,16,Some college,Service,2 to 5,No,64,$50 - $74,7.3,Highly dissatisfied,Married,Own,Mastercard,No
+244,Male,51,50-64,18,College degree,Sales and Office,Less than 2,No,24,Under $25,11.6,Neutral,Unmarried,Own,Visa,No
+245,Female,52,50-64,16,Some college,Managerial and Professional,6 to 10,No,33,$25 - $49,10,Somewhat satisfied,Unmarried,Rent,Discover,No
+246,Female,27,25-34,18,College degree,Sales and Office,Less than 2,No,17,Under $25,11.3,Highly dissatisfied,Married,Rent,Mastercard,Yes
+247,Female,18,18-24,13,High school degree,Sales and Office,Less than 2,No,21,Under $25,4.5,Neutral,Married,Own,Discover,Yes
+248,Male,42,35-49,14,High school degree,Sales and Office,2 to 5,No,34,$25 - $49,14.7,Somewhat satisfied,Married,Own,Discover,No
+249,Female,31,25-34,18,College degree,Service,2 to 5,No,78,$75 - $124,5.6,Neutral,Married,Own,Visa,No
+250,Male,18,18-24,13,High school degree,Managerial and Professional,Less than 2,No,19,Under $25,22.2,Highly dissatisfied,Married,Own,Mastercard,Yes
+251,Male,32,25-34,12,High school degree,Managerial and Professional,2 to 5,No,29,$25 - $49,9.3,Somewhat satisfied,Unmarried,Rent,Discover,No
+252,Male,64,50-64,21,Post-undergraduate degree,Managerial and Professional,11 to 15,No,66,$50 - $74,16.4,Somewhat dissatisfied,Unmarried,Rent,Discover,No
+253,Male,39,35-49,17,College degree,Managerial and Professional,2 to 5,No,50,$50 - $74,15.6,Somewhat dissatisfied,Unmarried,Rent,Mastercard,Yes
+254,Female,49,35-49,16,Some college,Managerial and Professional,6 to 10,No,50,$50 - $74,6.5,Somewhat dissatisfied,Unmarried,Rent,Discover,No
+255,Female,75,65+,15,Some college,Managerial and Professional,11 to 15,No,74,$50 - $74,2.8,Somewhat satisfied,Married,Rent,Mastercard,No
+256,Male,29,25-34,13,High school degree,Managerial and Professional,2 to 5,No,20,Under $25,9.3,Somewhat satisfied,Unmarried,Own,Visa,No
+257,Male,23,18-24,15,Some college,Managerial and Professional,Less than 2,No,64,$50 - $74,4.3,Highly dissatisfied,Married,Own,Visa,Yes
+258,Female,79,65+,12,High school degree,Sales and Office,More than 15,Yes,9,Under $25,7.8,Somewhat satisfied,Unmarried,Own,American Express,No
+259,Female,74,65+,11,Did not complete high school,Service,More than 15,Yes,16,Under $25,9.9,Neutral,Unmarried,Rent,Visa,No
+260,Male,38,35-49,16,Some college,Managerial and Professional,6 to 10,No,76,$75 - $124,2.6,Neutral,Unmarried,Own,Mastercard,No
+261,Male,68,65+,13,High school degree,Sales and Office,6 to 10,Yes,11,Under $25,4.5,Neutral,Unmarried,Own,American Express,Yes
+262,Male,28,25-34,20,Post-undergraduate degree,Managerial and Professional,Less than 2,No,55,$50 - $74,16.5,Highly dissatisfied,Unmarried,Rent,Visa,Yes
+263,Female,65,65+,17,College degree,Managerial and Professional,6 to 10,No,28,$25 - $49,3.5,Highly dissatisfied,Unmarried,Own,Visa,No
+264,Female,60,50-64,15,Some college,Service,More than 15,No,191,$125+,11.3,Neutral,Married,Rent,Visa,No
+265,Female,72,65+,15,Some college,Managerial and Professional,More than 15,Yes,17,Under $25,9.7,Somewhat dissatisfied,Married,Rent,Mastercard,No
+266,Female,48,35-49,15,Some college,Sales and Office,2 to 5,No,27,$25 - $49,6.5,Highly dissatisfied,Married,Own,Discover,No
+267,Male,33,25-34,14,High school degree,Service,2 to 5,No,53,$50 - $74,5,Highly dissatisfied,Married,Rent,Mastercard,No
+268,Male,26,25-34,15,Some college,Sales and Office,Less than 2,No,37,$25 - $49,11,Highly dissatisfied,Unmarried,Own,Discover,No
+269,Male,75,65+,11,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,21,Under $25,10.1,Somewhat satisfied,Married,Own,Mastercard,No
+270,Female,29,25-34,17,College degree,Sales and Office,Less than 2,No,47,$25 - $49,8.3,Neutral,Unmarried,Own,Discover,Yes
+271,Male,30,25-34,18,College degree,Managerial and Professional,Less than 2,No,30,$25 - $49,9.9,Highly dissatisfied,Married,Own,Discover,Yes
+272,Male,74,65+,21,Post-undergraduate degree,Sales and Office,6 to 10,Yes,9,Under $25,1,Highly dissatisfied,Unmarried,Rent,Discover,No
+273,Male,64,50-64,11,Did not complete high school,Managerial and Professional,More than 15,No,69,$50 - $74,7.9,Highly satisfied,Unmarried,Own,Mastercard,No
+274,Female,61,50-64,16,Some college,Managerial and Professional,2 to 5,No,35,$25 - $49,26.1,Highly dissatisfied,Unmarried,Own,Visa,No
+275,Female,20,18-24,15,Some college,Sales and Office,Less than 2,No,28,$25 - $49,9.8,Highly dissatisfied,Married,Own,American Express,Yes
+276,Female,64,50-64,8,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,No,143,$125+,10,Highly satisfied,Unmarried,Own,Discover,No
+277,Female,66,65+,16,Some college,Managerial and Professional,11 to 15,No,80,$75 - $124,17.9,Highly dissatisfied,Married,Own,Discover,No
+278,Female,59,50-64,17,College degree,Sales and Office,2 to 5,No,18,Under $25,8.8,Somewhat satisfied,Unmarried,Own,Mastercard,No
+279,Female,54,50-64,12,High school degree,Sales and Office,6 to 10,No,41,$25 - $49,8.7,Neutral,Unmarried,Own,Mastercard,No
+280,Female,55,50-64,13,High school degree,Sales and Office,2 to 5,No,32,$25 - $49,20.9,Somewhat dissatisfied,Married,Rent,Discover,No
+281,Male,71,65+,17,College degree,Managerial and Professional,More than 15,No,310,$125+,14.2,Neutral,Married,Own,American Express,No
+282,Male,55,50-64,17,College degree,Sales and Office,6 to 10,No,182,$125+,4.7,Somewhat dissatisfied,Married,Own,Discover,No
+283,Female,32,25-34,14,High school degree,"Precision Production, Craft, Repair",2 to 5,No,25,$25 - $49,3.8,Neutral,Married,Rent,Mastercard,No
+284,Female,19,18-24,14,High school degree,"Operation, Fabrication, General Labor",Less than 2,No,19,Under $25,24.1,Somewhat dissatisfied,Married,Own,Visa,Yes
+285,Male,68,65+,21,Post-undergraduate degree,"Precision Production, Craft, Repair",More than 15,Yes,10,Under $25,13.1,Highly satisfied,Unmarried,Rent,Visa,No
+286,Female,54,50-64,12,High school degree,Managerial and Professional,11 to 15,No,83,$75 - $124,7.3,Somewhat satisfied,Unmarried,Own,Visa,No
+287,Female,52,50-64,15,Some college,Managerial and Professional,6 to 10,No,165,$125+,9.7,Highly satisfied,Unmarried,Own,Visa,No
+288,Female,43,35-49,11,Did not complete high school,Sales and Office,2 to 5,No,43,$25 - $49,1.7,Neutral,Married,Own,Discover,No
+289,Female,77,65+,14,High school degree,"Operation, Fabrication, General Labor",More than 15,Yes,58,$50 - $74,12.3,Somewhat satisfied,Married,Rent,Mastercard,No
+290,Female,30,25-34,17,College degree,"Operation, Fabrication, General Labor",2 to 5,No,40,$25 - $49,12.6,Highly satisfied,Unmarried,Rent,Discover,Yes
+291,Female,55,50-64,17,College degree,"Operation, Fabrication, General Labor",More than 15,No,143,$125+,6.4,Somewhat satisfied,Married,Own,Mastercard,No
+292,Female,54,50-64,17,College degree,Managerial and Professional,11 to 15,No,118,$75 - $124,25.6,Somewhat satisfied,Unmarried,Own,American Express,Yes
+293,Female,31,25-34,17,College degree,Service,2 to 5,No,18,Under $25,20.2,Neutral,Unmarried,Own,Visa,Yes
+294,Female,60,50-64,17,College degree,"Operation, Fabrication, General Labor",More than 15,Yes,20,Under $25,22.4,Highly satisfied,Married,Own,American Express,No
+295,Female,39,35-49,17,College degree,Managerial and Professional,2 to 5,No,36,$25 - $49,17.1,Somewhat dissatisfied,Unmarried,Own,Visa,No
+296,Female,25,25-34,14,High school degree,Managerial and Professional,2 to 5,No,13,Under $25,8.6,Somewhat dissatisfied,Married,Rent,American Express,No
+297,Male,33,25-34,8,Did not complete high school,Agricultural and Natural Resources,6 to 10,No,25,$25 - $49,8.1,Somewhat satisfied,Unmarried,Rent,Mastercard,No
+298,Male,26,25-34,19,College degree,Managerial and Professional,Less than 2,No,36,$25 - $49,3.9,Neutral,Unmarried,Own,American Express,Yes
+299,Male,62,50-64,14,High school degree,"Precision Production, Craft, Repair",More than 15,Yes,11,Under $25,23.1,Highly satisfied,Married,Rent,Visa,No
+300,Male,43,35-49,20,Post-undergraduate degree,Sales and Office,2 to 5,No,42,$25 - $49,5.4,Highly satisfied,Unmarried,Rent,Discover,No
+301,Male,62,50-64,11,Did not complete high school,Sales and Office,11 to 15,No,48,$25 - $49,11,Highly satisfied,Married,Rent,Visa,Yes
+302,Female,51,50-64,10,Did not complete high school,Managerial and Professional,6 to 10,No,31,$25 - $49,19,Somewhat satisfied,Unmarried,Own,Discover,No
+303,Male,37,35-49,13,High school degree,Sales and Office,2 to 5,No,16,Under $25,11.8,Somewhat dissatisfied,Unmarried,Rent,Visa,Yes
+304,Male,75,65+,13,High school degree,Sales and Office,6 to 10,Yes,14,Under $25,5.7,Somewhat satisfied,Married,Own,Visa,No
+305,Male,68,65+,13,High school degree,Managerial and Professional,6 to 10,No,47,$25 - $49,18.4,Neutral,Married,Rent,Discover,Yes
+306,Male,55,50-64,17,College degree,Service,More than 15,No,181,$125+,5.1,Somewhat satisfied,Unmarried,Rent,Discover,No
+307,Female,39,35-49,19,College degree,Managerial and Professional,6 to 10,No,92,$75 - $124,11.6,Highly dissatisfied,Unmarried,Own,Visa,Yes
+308,Female,31,25-34,18,College degree,"Precision Production, Craft, Repair",2 to 5,No,33,$25 - $49,3.5,Somewhat satisfied,Unmarried,Own,Discover,Yes
+309,Female,72,65+,15,Some college,Managerial and Professional,11 to 15,No,43,$25 - $49,11.3,Neutral,Married,Rent,Mastercard,Yes
+310,Male,71,65+,20,Post-undergraduate degree,Service,More than 15,No,193,$125+,3.3,Neutral,Married,Own,Discover,No
+311,Female,27,25-34,15,Some college,Managerial and Professional,2 to 5,No,33,$25 - $49,2.7,Neutral,Unmarried,Own,Visa,No
+312,Male,58,50-64,13,High school degree,Service,11 to 15,No,54,$50 - $74,16.4,Somewhat satisfied,Unmarried,Own,Mastercard,No
+313,Female,42,35-49,12,High school degree,Sales and Office,2 to 5,No,117,$75 - $124,0.9,Somewhat satisfied,Unmarried,Own,Other,No
+314,Female,60,50-64,11,Did not complete high school,Service,More than 15,No,73,$50 - $74,9.8,Highly satisfied,Unmarried,Own,Mastercard,No
+315,Male,44,35-49,20,Post-undergraduate degree,Agricultural and Natural Resources,6 to 10,No,33,$25 - $49,7.2,Neutral,Unmarried,Rent,American Express,No
+316,Female,70,65+,14,High school degree,Managerial and Professional,More than 15,No,102,$75 - $124,13.3,Somewhat satisfied,Unmarried,Own,American Express,No
+317,Male,67,65+,17,College degree,Managerial and Professional,More than 15,No,103,$75 - $124,21.3,Highly satisfied,Married,Own,Visa,Yes
+318,Male,49,35-49,15,Some college,Sales and Office,2 to 5,No,36,$25 - $49,7.5,Neutral,Married,Own,Discover,No
+319,Female,44,35-49,16,Some college,Service,11 to 15,No,64,$50 - $74,11.5,Neutral,Married,Own,Mastercard,No
+320,Female,27,25-34,16,Some college,"Operation, Fabrication, General Labor",2 to 5,No,30,$25 - $49,0.5,Neutral,Married,Own,American Express,Yes
+321,Female,54,50-64,13,High school degree,Managerial and Professional,More than 15,No,74,$50 - $74,17.3,Highly satisfied,Unmarried,Rent,American Express,No
+322,Female,52,50-64,15,Some college,Service,More than 15,No,81,$75 - $124,4.9,Somewhat satisfied,Unmarried,Rent,American Express,No
+323,Male,26,25-34,20,Post-undergraduate degree,Service,Less than 2,No,37,$25 - $49,4,Neutral,Unmarried,Own,Other,No
+324,Male,45,35-49,14,High school degree,Managerial and Professional,6 to 10,No,63,$50 - $74,14,Highly satisfied,Unmarried,Own,Discover,No
+325,Female,20,18-24,15,Some college,"Operation, Fabrication, General Labor",Less than 2,No,23,Under $25,13.3,Highly dissatisfied,Married,Own,Visa,No
+326,Male,62,50-64,16,Some college,Agricultural and Natural Resources,More than 15,Yes,20,Under $25,4.6,Somewhat dissatisfied,Married,Own,Discover,No
+327,Male,25,25-34,13,High school degree,Sales and Office,Less than 2,No,24,Under $25,15,Highly dissatisfied,Married,Own,American Express,No
+328,Male,60,50-64,12,High school degree,Sales and Office,2 to 5,No,33,$25 - $49,10.1,Somewhat satisfied,Unmarried,Rent,Mastercard,No
+329,Male,62,50-64,9,Did not complete high school,Service,More than 15,No,45,$25 - $49,10.8,Somewhat dissatisfied,Married,Own,Visa,Yes
+330,Male,39,35-49,15,Some college,Managerial and Professional,6 to 10,No,71,$50 - $74,3.7,Neutral,Married,Own,Mastercard,No
+331,Male,35,35-49,16,Some college,Service,6 to 10,No,51,$50 - $74,0.9,Somewhat dissatisfied,Married,Own,Other,No
+332,Female,30,25-34,14,High school degree,Sales and Office,Less than 2,No,26,$25 - $49,7.3,Highly dissatisfied,Married,Own,Discover,Yes
+333,Male,60,50-64,13,High school degree,Sales and Office,2 to 5,No,30,$25 - $49,12.2,Somewhat satisfied,Married,Own,American Express,No
+334,Male,61,50-64,9,Did not complete high school,Managerial and Professional,More than 15,No,105,$75 - $124,10.7,Somewhat satisfied,Married,Own,American Express,No
+335,Male,55,50-64,13,High school degree,Agricultural and Natural Resources,More than 15,No,259,$125+,1.7,Highly satisfied,Unmarried,Own,American Express,No
+336,Male,26,25-34,16,Some college,Sales and Office,Less than 2,No,40,$25 - $49,17.4,Somewhat dissatisfied,Unmarried,Rent,Visa,No
+337,Male,71,65+,13,High school degree,"Operation, Fabrication, General Labor",More than 15,Yes,25,$25 - $49,19.3,Highly satisfied,Married,Own,Discover,No
+338,Female,66,65+,13,High school degree,"Precision Production, Craft, Repair",More than 15,No,49,$25 - $49,14.9,Somewhat satisfied,Unmarried,Rent,Visa,No
+339,Male,36,35-49,22,Post-undergraduate degree,"Operation, Fabrication, General Labor",6 to 10,No,55,$50 - $74,5.2,Highly satisfied,Married,Own,Visa,No
+340,Male,67,65+,14,High school degree,Sales and Office,6 to 10,No,65,$50 - $74,31.1,Somewhat dissatisfied,Married,Own,Visa,Yes
+341,Male,54,50-64,14,High school degree,"Precision Production, Craft, Repair",6 to 10,No,24,Under $25,8.1,Highly satisfied,Unmarried,Rent,Mastercard,No
+342,Male,66,65+,20,Post-undergraduate degree,"Operation, Fabrication, General Labor",More than 15,Yes,9,Under $25,13.9,Somewhat satisfied,Unmarried,Rent,Mastercard,No
+343,Male,27,25-34,12,High school degree,Sales and Office,Less than 2,No,22,Under $25,1.6,Neutral,Married,Own,Discover,No
+344,Male,33,25-34,20,Post-undergraduate degree,Managerial and Professional,2 to 5,No,98,$75 - $124,24.4,Neutral,Unmarried,Rent,American Express,Yes
+345,Female,26,25-34,15,Some college,Managerial and Professional,Less than 2,No,30,$25 - $49,31.7,Somewhat dissatisfied,Married,Own,Mastercard,Yes
+346,Female,37,35-49,11,Did not complete high school,Service,11 to 15,No,57,$50 - $74,22.1,Somewhat satisfied,Unmarried,Own,Mastercard,Yes
+347,Male,61,50-64,14,High school degree,Sales and Office,2 to 5,No,28,$25 - $49,13.5,Highly satisfied,Married,Own,American Express,No
+348,Male,75,65+,15,Some college,Sales and Office,11 to 15,No,63,$50 - $74,11.4,Somewhat satisfied,Unmarried,Rent,American Express,No
+349,Male,46,35-49,12,High school degree,Sales and Office,2 to 5,No,53,$50 - $74,7.1,Highly dissatisfied,Unmarried,Own,Discover,No
+350,Female,51,50-64,16,Some college,Sales and Office,6 to 10,No,56,$50 - $74,6.9,Highly satisfied,Unmarried,Rent,Mastercard,No
+351,Male,55,50-64,20,Post-undergraduate degree,Managerial and Professional,6 to 10,No,208,$125+,14.1,Somewhat satisfied,Married,Own,Discover,Yes
+352,Male,58,50-64,13,High school degree,Sales and Office,6 to 10,Yes,15,Under $25,14.2,Highly satisfied,Married,Rent,Visa,Yes
+353,Male,40,35-49,18,College degree,Managerial and Professional,2 to 5,No,101,$75 - $124,2.1,Highly dissatisfied,Unmarried,Rent,Visa,No
+354,Male,26,25-34,14,High school degree,Sales and Office,Less than 2,No,19,Under $25,4.1,Neutral,Unmarried,Rent,American Express,Yes
+355,Male,32,25-34,15,Some college,Service,2 to 5,No,19,Under $25,21.1,Highly dissatisfied,Married,Own,American Express,Yes
+356,Female,42,35-49,17,College degree,Managerial and Professional,11 to 15,No,78,$75 - $124,10.9,Somewhat satisfied,Unmarried,Rent,Discover,No
+357,Female,55,50-64,18,College degree,"Operation, Fabrication, General Labor",More than 15,No,91,$75 - $124,25.6,Neutral,Unmarried,Own,American Express,No
+358,Male,59,50-64,11,Did not complete high school,Service,More than 15,No,78,$75 - $124,9.2,Highly satisfied,Married,Own,Mastercard,No
+359,Female,25,25-34,18,College degree,"Operation, Fabrication, General Labor",Less than 2,No,45,$25 - $49,6.6,Highly dissatisfied,Married,Own,American Express,Yes
+360,Male,57,50-64,14,High school degree,Service,More than 15,No,293,$125+,20.8,Somewhat satisfied,Married,Own,Discover,No
+361,Female,47,35-49,13,High school degree,Sales and Office,2 to 5,No,29,$25 - $49,15,Neutral,Married,Rent,American Express,No
+362,Female,28,25-34,16,Some college,Managerial and Professional,2 to 5,No,25,$25 - $49,8.9,Somewhat dissatisfied,Married,Rent,American Express,No
+363,Female,61,50-64,14,High school degree,Service,More than 15,No,61,$50 - $74,9.9,Neutral,Unmarried,Own,Visa,No
+364,Female,48,35-49,17,College degree,Agricultural and Natural Resources,6 to 10,No,94,$75 - $124,7,Highly satisfied,Married,Own,Discover,No
+365,Male,46,35-49,12,High school degree,Sales and Office,2 to 5,No,37,$25 - $49,2.2,Somewhat dissatisfied,Married,Own,Visa,No
+366,Female,52,50-64,13,High school degree,Sales and Office,2 to 5,No,27,$25 - $49,10.8,Somewhat dissatisfied,Married,Own,American Express,No
+367,Male,29,25-34,17,College degree,"Precision Production, Craft, Repair",Less than 2,No,24,Under $25,1.9,Somewhat dissatisfied,Married,Rent,Visa,Yes
+368,Female,49,35-49,16,Some college,Managerial and Professional,11 to 15,No,44,$25 - $49,5.2,Neutral,Unmarried,Rent,Visa,No
+369,Male,41,35-49,19,College degree,Managerial and Professional,2 to 5,No,95,$75 - $124,21.1,Somewhat satisfied,Unmarried,Own,Discover,Yes
+370,Male,66,65+,18,College degree,Sales and Office,2 to 5,No,32,$25 - $49,10,Neutral,Married,Own,Discover,No
+371,Female,19,18-24,14,High school degree,Managerial and Professional,Less than 2,No,17,Under $25,4.9,Highly dissatisfied,Unmarried,Own,Visa,No
+372,Male,44,35-49,14,High school degree,Sales and Office,6 to 10,No,32,$25 - $49,10.5,Somewhat satisfied,Unmarried,Rent,American Express,No
+373,Male,52,50-64,16,Some college,"Precision Production, Craft, Repair",More than 15,No,41,$25 - $49,23.8,Neutral,Unmarried,Own,Discover,No
+374,Female,50,50-64,16,Some college,"Precision Production, Craft, Repair",More than 15,No,207,$125+,2,Highly satisfied,Unmarried,Own,Mastercard,No
+375,Female,61,50-64,13,High school degree,"Operation, Fabrication, General Labor",More than 15,No,339,$125+,5.1,Highly satisfied,Unmarried,Rent,Visa,No
+376,Female,71,65+,15,Some college,Sales and Office,11 to 15,No,59,$50 - $74,7.9,Neutral,Married,Own,American Express,No
+377,Female,79,65+,15,Some college,"Operation, Fabrication, General Labor",More than 15,Yes,11,Under $25,8.2,Somewhat satisfied,Unmarried,Own,Visa,No
+378,Female,39,35-49,14,High school degree,"Operation, Fabrication, General Labor",6 to 10,No,145,$125+,2.7,Neutral,Married,Own,Discover,No
+379,Female,50,50-64,19,College degree,"Operation, Fabrication, General Labor",11 to 15,No,60,$50 - $74,9.1,Highly satisfied,Unmarried,Own,Mastercard,No
+380,Male,63,50-64,18,College degree,Managerial and Professional,More than 15,No,91,$75 - $124,12.7,Somewhat satisfied,Married,Rent,American Express,No
+381,Female,55,50-64,17,College degree,"Precision Production, Craft, Repair",11 to 15,No,54,$50 - $74,4.3,Highly satisfied,Unmarried,Own,Discover,No
+382,Male,72,65+,14,High school degree,Managerial and Professional,11 to 15,No,50,$50 - $74,9.4,Somewhat dissatisfied,Married,Rent,Visa,No
+383,Male,57,50-64,12,High school degree,Managerial and Professional,More than 15,No,96,$75 - $124,5.8,Highly satisfied,Unmarried,Own,Discover,No
+384,Male,74,65+,18,College degree,"Operation, Fabrication, General Labor",More than 15,Yes,66,$50 - $74,18.1,Somewhat satisfied,Unmarried,Rent,Discover,Yes
+385,Female,69,65+,14,High school degree,Managerial and Professional,More than 15,No,105,$75 - $124,4.9,Neutral,Married,Rent,Discover,No
+386,Female,37,35-49,21,Post-undergraduate degree,Sales and Office,2 to 5,No,147,$125+,12.5,Somewhat dissatisfied,Unmarried,Own,Mastercard,Yes
+387,Female,35,35-49,15,Some college,Sales and Office,2 to 5,No,53,$50 - $74,17.7,Highly dissatisfied,Married,Own,Visa,No
+388,Female,68,65+,15,Some college,Service,More than 15,No,144,$125+,2.5,Somewhat satisfied,Married,Own,American Express,No
+389,Male,51,50-64,14,High school degree,Service,11 to 15,No,66,$50 - $74,4.1,Highly dissatisfied,Married,Rent,American Express,No
+390,Male,27,25-34,20,Post-undergraduate degree,Sales and Office,Less than 2,No,14,Under $25,15,Highly dissatisfied,Unmarried,Rent,American Express,No
+391,Female,34,25-34,11,Did not complete high school,"Operation, Fabrication, General Labor",2 to 5,No,32,$25 - $49,12.3,Highly satisfied,Married,Own,Visa,No
+392,Female,20,18-24,15,Some college,"Operation, Fabrication, General Labor",Less than 2,No,24,Under $25,5.9,Highly satisfied,Unmarried,Own,Discover,No
+393,Female,70,65+,19,College degree,"Operation, Fabrication, General Labor",More than 15,Yes,10,Under $25,9.2,Somewhat dissatisfied,Unmarried,Rent,Discover,No
+394,Female,67,65+,13,High school degree,Sales and Office,6 to 10,No,38,$25 - $49,16.2,Somewhat satisfied,Unmarried,Rent,Mastercard,No
+395,Female,41,35-49,14,High school degree,Agricultural and Natural Resources,More than 15,No,43,$25 - $49,18.1,Somewhat satisfied,Married,Rent,Visa,Yes
+396,Male,76,65+,14,High school degree,Sales and Office,11 to 15,Yes,15,Under $25,6.7,Neutral,Unmarried,Rent,American Express,No
+397,Female,68,65+,12,High school degree,Sales and Office,6 to 10,Yes,12,Under $25,22.7,Somewhat dissatisfied,Married,Own,Other,Yes
+398,Female,40,35-49,19,College degree,"Operation, Fabrication, General Labor",11 to 15,No,107,$75 - $124,4.1,Somewhat satisfied,Married,Rent,Visa,No
+399,Female,77,65+,10,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,10,Under $25,4.6,Highly satisfied,Unmarried,Rent,Mastercard,No
+400,Male,74,65+,13,High school degree,"Precision Production, Craft, Repair",More than 15,Yes,19,Under $25,4.9,Somewhat satisfied,Unmarried,Own,Visa,No
+401,Male,54,50-64,10,Did not complete high school,Sales and Office,6 to 10,No,33,$25 - $49,11.9,Neutral,Unmarried,Own,Visa,No
+402,Female,36,35-49,18,College degree,Service,2 to 5,No,41,$25 - $49,11,Highly dissatisfied,Married,Rent,Visa,No
+403,Female,64,50-64,9,Did not complete high school,Service,More than 15,No,236,$125+,0.5,Highly satisfied,Unmarried,Own,Discover,No
+404,Male,23,18-24,16,Some college,"Precision Production, Craft, Repair",Less than 2,No,44,$25 - $49,6.4,Somewhat satisfied,Married,Own,Mastercard,No
+405,Male,53,50-64,17,College degree,Sales and Office,2 to 5,No,94,$75 - $124,16.4,Neutral,Unmarried,Rent,American Express,Yes
+406,Female,68,65+,15,Some college,Managerial and Professional,11 to 15,No,57,$50 - $74,5.6,Neutral,Married,Own,Mastercard,No
+407,Male,57,50-64,14,High school degree,Service,More than 15,No,70,$50 - $74,20.4,Highly satisfied,Unmarried,Rent,Discover,No
+408,Female,28,25-34,19,College degree,Sales and Office,Less than 2,No,19,Under $25,12.5,Highly dissatisfied,Married,Rent,Discover,No
+409,Female,55,50-64,16,Some college,Sales and Office,2 to 5,No,68,$50 - $74,3,Somewhat dissatisfied,Married,Own,American Express,No
+410,Male,59,50-64,15,Some college,Service,11 to 15,No,184,$125+,6.6,Somewhat satisfied,Married,Own,Visa,No
+411,Female,47,35-49,17,College degree,Managerial and Professional,6 to 10,No,54,$50 - $74,1.6,Somewhat satisfied,Married,Rent,Mastercard,No
+412,Female,54,50-64,18,College degree,Managerial and Professional,6 to 10,No,80,$75 - $124,5.8,Neutral,Married,Own,American Express,No
+413,Male,43,35-49,11,Did not complete high school,Sales and Office,2 to 5,No,60,$50 - $74,7.4,Neutral,Married,Rent,American Express,No
+414,Male,40,35-49,10,Did not complete high school,Agricultural and Natural Resources,More than 15,No,43,$25 - $49,15.1,Neutral,Married,Own,Discover,No
+415,Male,22,18-24,14,High school degree,Service,Less than 2,No,18,Under $25,21.7,Highly dissatisfied,Married,Own,Mastercard,Yes
+416,Female,33,25-34,11,Did not complete high school,"Precision Production, Craft, Repair",2 to 5,No,38,$25 - $49,17.5,Somewhat satisfied,Married,Own,American Express,Yes
+417,Female,58,50-64,10,Did not complete high school,Sales and Office,6 to 10,No,27,$25 - $49,7.8,Somewhat dissatisfied,Married,Own,Discover,No
+418,Female,51,50-64,14,High school degree,Sales and Office,11 to 15,No,35,$25 - $49,12.9,Neutral,Unmarried,Rent,Mastercard,Yes
+419,Female,61,50-64,16,Some college,Managerial and Professional,11 to 15,No,96,$75 - $124,9.7,Highly satisfied,Married,Own,Discover,No
+420,Male,33,25-34,11,Did not complete high school,Service,11 to 15,No,53,$50 - $74,1,Highly satisfied,Unmarried,Own,Mastercard,No
+421,Male,57,50-64,14,High school degree,Sales and Office,6 to 10,No,29,$25 - $49,8.5,Somewhat dissatisfied,Unmarried,Own,Discover,No
+422,Female,76,65+,12,High school degree,"Precision Production, Craft, Repair",More than 15,Yes,20,Under $25,2.5,Highly satisfied,Unmarried,Rent,Visa,No
+423,Male,65,65+,16,Some college,Managerial and Professional,More than 15,No,296,$125+,17.1,Highly dissatisfied,Unmarried,Own,Discover,Yes
+424,Male,45,35-49,16,Some college,Service,11 to 15,No,41,$25 - $49,8.3,Somewhat satisfied,Unmarried,Rent,Visa,No
+425,Female,56,50-64,17,College degree,Sales and Office,6 to 10,No,20,Under $25,8.5,Somewhat satisfied,Unmarried,Own,Visa,No
+426,Male,46,35-49,14,High school degree,Sales and Office,2 to 5,No,33,$25 - $49,5.8,Somewhat dissatisfied,Unmarried,Own,Visa,Yes
+427,Male,75,65+,19,College degree,Sales and Office,11 to 15,Yes,12,Under $25,6.5,Somewhat satisfied,Unmarried,Own,Discover,No
+428,Female,68,65+,14,High school degree,"Operation, Fabrication, General Labor",More than 15,Yes,23,Under $25,1.8,Highly satisfied,Unmarried,Own,Discover,No
+429,Male,65,65+,11,Did not complete high school,Sales and Office,2 to 5,No,21,Under $25,5.5,Somewhat satisfied,Married,Rent,Mastercard,No
+430,Male,27,25-34,17,College degree,Sales and Office,Less than 2,No,16,Under $25,2.3,Highly dissatisfied,Married,Own,Mastercard,No
+431,Male,68,65+,19,College degree,Managerial and Professional,11 to 15,No,108,$75 - $124,5.6,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+432,Female,65,65+,16,Some college,Sales and Office,More than 15,No,167,$125+,4.7,Highly satisfied,Unmarried,Rent,Discover,No
+433,Female,56,50-64,13,High school degree,Sales and Office,Less than 2,No,20,Under $25,6.3,Highly dissatisfied,Married,Rent,Mastercard,No
+434,Male,53,50-64,15,Some college,"Operation, Fabrication, General Labor",11 to 15,No,49,$25 - $49,10.8,Neutral,Unmarried,Own,American Express,No
+435,Male,72,65+,11,Did not complete high school,Service,More than 15,Yes,17,Under $25,16.2,Highly satisfied,Unmarried,Own,Mastercard,No
+436,Male,58,50-64,13,High school degree,"Operation, Fabrication, General Labor",More than 15,Yes,19,Under $25,4.7,Somewhat satisfied,Unmarried,Rent,American Express,No
+437,Male,39,35-49,8,Did not complete high school,Agricultural and Natural Resources,11 to 15,No,46,$25 - $49,5.7,Somewhat satisfied,Unmarried,Own,Other,No
+438,Female,39,35-49,14,High school degree,Sales and Office,2 to 5,No,83,$75 - $124,7.2,Highly dissatisfied,Unmarried,Rent,Visa,Yes
+439,Female,73,65+,12,High school degree,Managerial and Professional,More than 15,Yes,26,$25 - $49,13.1,Somewhat dissatisfied,Married,Own,Discover,No
+440,Male,51,50-64,21,Post-undergraduate degree,Managerial and Professional,2 to 5,No,46,$25 - $49,36.7,Neutral,Unmarried,Own,Mastercard,Yes
+441,Female,37,35-49,10,Did not complete high school,Service,11 to 15,No,41,$25 - $49,14,Neutral,Unmarried,Own,Visa,No
+442,Female,36,35-49,16,Some college,Managerial and Professional,2 to 5,No,81,$75 - $124,10.5,Somewhat dissatisfied,Married,Own,American Express,No
+443,Female,65,65+,17,College degree,"Operation, Fabrication, General Labor",More than 15,Yes,31,$25 - $49,5.5,Somewhat dissatisfied,Married,Own,American Express,No
+444,Male,33,25-34,14,High school degree,Managerial and Professional,2 to 5,No,32,$25 - $49,22.7,Neutral,Married,Own,Discover,Yes
+445,Male,57,50-64,11,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,25,$25 - $49,11,Somewhat dissatisfied,Unmarried,Rent,Other,No
+446,Female,54,50-64,19,College degree,"Operation, Fabrication, General Labor",11 to 15,No,125,$125+,5.7,Highly satisfied,Unmarried,Own,Discover,No
+447,Male,31,25-34,18,College degree,Service,2 to 5,No,137,$125+,5.3,Somewhat dissatisfied,Married,Own,Discover,No
+448,Male,33,25-34,15,Some college,Service,6 to 10,No,49,$25 - $49,7.7,Somewhat dissatisfied,Married,Own,Discover,No
+449,Male,20,18-24,15,Some college,"Precision Production, Craft, Repair",Less than 2,No,28,$25 - $49,10.5,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+450,Female,65,65+,16,Some college,Sales and Office,6 to 10,No,60,$50 - $74,9.9,Highly dissatisfied,Married,Own,Visa,No
+451,Female,62,50-64,17,College degree,Managerial and Professional,More than 15,No,186,$125+,20.6,Highly satisfied,Unmarried,Own,Mastercard,No
+452,Female,39,35-49,9,Did not complete high school,Sales and Office,2 to 5,No,49,$25 - $49,6.4,Somewhat satisfied,Married,Own,Visa,No
+453,Female,36,35-49,17,College degree,"Precision Production, Craft, Repair",2 to 5,No,34,$25 - $49,20.2,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+454,Female,26,25-34,15,Some college,Service,2 to 5,No,24,Under $25,13.5,Somewhat dissatisfied,Married,Own,Discover,Yes
+455,Male,20,18-24,15,Some college,"Precision Production, Craft, Repair",Less than 2,No,27,$25 - $49,11.2,Somewhat dissatisfied,Married,Own,Mastercard,Yes
+456,Male,49,35-49,12,High school degree,Sales and Office,2 to 5,No,38,$25 - $49,7.6,Highly dissatisfied,Unmarried,Own,Discover,Yes
+457,Female,22,18-24,15,Some college,Sales and Office,Less than 2,No,17,Under $25,3.1,Neutral,Unmarried,Rent,Visa,No
+458,Male,48,35-49,14,High school degree,"Operation, Fabrication, General Labor",11 to 15,No,90,$75 - $124,7.2,Highly satisfied,Married,Own,Mastercard,No
+459,Male,74,65+,11,Did not complete high school,Sales and Office,11 to 15,No,26,$25 - $49,12.4,Somewhat satisfied,Married,Own,Mastercard,No
+460,Male,55,50-64,14,High school degree,"Operation, Fabrication, General Labor",More than 15,No,112,$75 - $124,26.1,Somewhat satisfied,Unmarried,Rent,American Express,No
+461,Male,58,50-64,16,Some college,Service,11 to 15,No,70,$50 - $74,9.9,Somewhat dissatisfied,Unmarried,Own,Visa,No
+462,Male,49,35-49,18,College degree,"Operation, Fabrication, General Labor",11 to 15,No,197,$125+,18.8,Somewhat satisfied,Married,Rent,American Express,Yes
+463,Female,23,18-24,13,High school degree,Managerial and Professional,2 to 5,No,15,Under $25,8.1,Highly dissatisfied,Unmarried,Rent,Discover,Yes
+464,Female,52,50-64,16,Some college,Agricultural and Natural Resources,More than 15,No,98,$75 - $124,22.7,Somewhat satisfied,Married,Rent,Discover,No
+465,Male,36,35-49,15,Some college,"Precision Production, Craft, Repair",6 to 10,No,116,$75 - $124,9.6,Highly satisfied,Unmarried,Rent,Discover,No
+466,Male,32,25-34,11,Did not complete high school,Sales and Office,Less than 2,No,40,$25 - $49,10.7,Somewhat dissatisfied,Unmarried,Own,Discover,No
+467,Male,45,35-49,17,College degree,Sales and Office,2 to 5,No,190,$125+,7,Highly dissatisfied,Married,Own,American Express,Yes
+468,Female,49,35-49,12,High school degree,"Operation, Fabrication, General Labor",More than 15,No,240,$125+,2,Highly satisfied,Married,Own,Discover,No
+469,Male,56,50-64,13,High school degree,Agricultural and Natural Resources,More than 15,Yes,74,$50 - $74,7.3,Somewhat dissatisfied,Unmarried,Rent,American Express,No
+470,Male,68,65+,20,Post-undergraduate degree,Service,More than 15,Yes,17,Under $25,7.5,Neutral,Married,Rent,American Express,No
+471,Female,44,35-49,18,College degree,"Operation, Fabrication, General Labor",11 to 15,No,54,$50 - $74,11.5,Somewhat dissatisfied,Married,Rent,Visa,No
+472,Male,57,50-64,15,Some college,Sales and Office,6 to 10,No,73,$50 - $74,7.4,Somewhat dissatisfied,Married,Rent,Visa,No
+473,Male,19,18-24,14,High school degree,Agricultural and Natural Resources,Less than 2,No,12,Under $25,2.6,Somewhat satisfied,Married,Own,Visa,Yes
+474,Female,69,65+,12,High school degree,Managerial and Professional,More than 15,No,72,$50 - $74,14.4,Highly satisfied,Unmarried,Own,Visa,No
+475,Female,63,50-64,11,Did not complete high school,Sales and Office,6 to 10,No,31,$25 - $49,1.3,Somewhat dissatisfied,Married,Own,Visa,No
+476,Male,36,35-49,18,College degree,Sales and Office,Less than 2,No,47,$25 - $49,4.9,Highly dissatisfied,Unmarried,Rent,Visa,No
+477,Male,38,35-49,19,College degree,Sales and Office,Less than 2,No,23,Under $25,7.7,Neutral,Unmarried,Rent,Mastercard,Yes
+478,Female,63,50-64,15,Some college,Sales and Office,2 to 5,No,52,$50 - $74,12.7,Somewhat dissatisfied,Unmarried,Own,American Express,No
+479,Female,44,35-49,15,Some college,Sales and Office,2 to 5,No,23,Under $25,10.3,Somewhat satisfied,Married,Own,Visa,No
+480,Male,47,35-49,12,High school degree,Managerial and Professional,6 to 10,No,136,$125+,7.4,Highly satisfied,Married,Rent,Discover,Yes
+481,Female,37,35-49,14,High school degree,Agricultural and Natural Resources,6 to 10,No,39,$25 - $49,11.8,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+482,Male,37,35-49,17,College degree,Sales and Office,Less than 2,No,22,Under $25,4,Somewhat dissatisfied,Married,Own,American Express,No
+483,Male,68,65+,9,Did not complete high school,Managerial and Professional,6 to 10,No,36,$25 - $49,5.1,Somewhat satisfied,Married,Rent,Mastercard,No
+484,Male,29,25-34,17,College degree,Service,2 to 5,No,13,Under $25,6.8,Neutral,Married,Own,Visa,No
+485,Male,51,50-64,16,Some college,Sales and Office,2 to 5,No,68,$50 - $74,10.1,Highly satisfied,Married,Rent,Visa,Yes
+486,Male,54,50-64,15,Some college,"Operation, Fabrication, General Labor",More than 15,No,95,$75 - $124,11.6,Somewhat dissatisfied,Married,Own,Discover,No
+487,Male,55,50-64,12,High school degree,Service,11 to 15,No,75,$75 - $124,10.3,Somewhat satisfied,Unmarried,Own,American Express,Yes
+488,Male,75,65+,13,High school degree,Sales and Office,6 to 10,Yes,14,Under $25,5.7,Somewhat satisfied,Unmarried,Rent,American Express,No
+489,Female,59,50-64,17,College degree,Sales and Office,6 to 10,Yes,9,Under $25,4.6,Neutral,Unmarried,Own,Discover,No
+490,Male,36,35-49,15,Some college,Managerial and Professional,2 to 5,No,96,$75 - $124,12.6,Highly satisfied,Married,Rent,Discover,No
+491,Male,37,35-49,17,College degree,Agricultural and Natural Resources,11 to 15,No,72,$50 - $74,4.4,Highly satisfied,Married,Own,Discover,No
+492,Male,18,18-24,13,High school degree,Sales and Office,Less than 2,No,18,Under $25,2.1,Highly dissatisfied,Unmarried,Own,American Express,Yes
+493,Male,73,65+,11,Did not complete high school,Sales and Office,6 to 10,Yes,9,Under $25,8.2,Highly satisfied,Married,Own,Discover,No
+494,Male,67,65+,12,High school degree,Sales and Office,2 to 5,No,28,$25 - $49,10.7,Highly satisfied,Married,Own,Discover,No
+495,Female,76,65+,11,Did not complete high school,"Precision Production, Craft, Repair",More than 15,Yes,17,Under $25,6.3,Highly satisfied,Unmarried,Own,Visa,No
+496,Male,43,35-49,19,College degree,Managerial and Professional,2 to 5,No,49,$25 - $49,4.7,Somewhat satisfied,Unmarried,Rent,Discover,No
+497,Male,42,35-49,17,College degree,Sales and Office,2 to 5,No,25,$25 - $49,9,Neutral,Married,Rent,Discover,Yes
+498,Male,20,18-24,15,Some college,"Precision Production, Craft, Repair",Less than 2,No,19,Under $25,22.1,Highly dissatisfied,Unmarried,Rent,Visa,Yes
+499,Male,63,50-64,14,High school degree,"Operation, Fabrication, General Labor",More than 15,No,183,$125+,1.1,Highly satisfied,Married,Own,Mastercard,No
+500,Male,50,50-64,15,Some college,"Precision Production, Craft, Repair",11 to 15,No,112,$75 - $124,16,Somewhat satisfied,Married,Own,Visa,Yes
+501,Female,70,65+,13,High school degree,Managerial and Professional,More than 15,No,54,$50 - $74,10.2,Highly satisfied,Unmarried,Rent,Discover,No
+502,Male,19,18-24,14,High school degree,"Operation, Fabrication, General Labor",Less than 2,No,19,Under $25,18.4,Somewhat dissatisfied,Unmarried,Rent,Visa,Yes
+503,Male,25,25-34,16,Some college,Managerial and Professional,Less than 2,No,21,Under $25,28.5,Somewhat dissatisfied,Married,Rent,Discover,Yes
+504,Male,49,35-49,17,College degree,Sales and Office,Less than 2,No,47,$25 - $49,2.9,Highly satisfied,Married,Own,Visa,No
+505,Male,55,50-64,15,Some college,Sales and Office,6 to 10,No,58,$50 - $74,19.8,Somewhat satisfied,Married,Own,Visa,No
+506,Female,45,35-49,18,College degree,"Operation, Fabrication, General Labor",More than 15,No,140,$125+,8.7,Neutral,Unmarried,Own,American Express,No
+507,Male,27,25-34,10,Did not complete high school,"Operation, Fabrication, General Labor",6 to 10,No,24,Under $25,17.6,Somewhat dissatisfied,Unmarried,Own,Visa,Yes
+508,Female,51,50-64,16,Some college,"Precision Production, Craft, Repair",More than 15,No,203,$125+,19.6,Highly satisfied,Married,Own,Discover,Yes
+509,Male,59,50-64,11,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,79,$75 - $124,33.2,Highly satisfied,Unmarried,Own,Visa,No
+510,Female,32,25-34,13,High school degree,Managerial and Professional,Less than 2,No,62,$50 - $74,12.6,Highly dissatisfied,Married,Rent,Visa,Yes
+511,Female,46,35-49,16,Some college,Managerial and Professional,6 to 10,No,30,$25 - $49,1.9,Somewhat dissatisfied,Unmarried,Own,Other,No
+512,Female,75,65+,13,High school degree,"Precision Production, Craft, Repair",More than 15,Yes,22,Under $25,8.7,Highly satisfied,Married,Own,Mastercard,No
+513,Female,28,25-34,11,Did not complete high school,Sales and Office,Less than 2,No,15,Under $25,11.4,Highly dissatisfied,Married,Own,Visa,No
+514,Female,76,65+,13,High school degree,"Operation, Fabrication, General Labor",More than 15,Yes,20,Under $25,8.2,Highly satisfied,Unmarried,Own,Visa,No
+515,Female,57,50-64,11,Did not complete high school,Service,More than 15,No,75,$75 - $124,9.2,Highly satisfied,Unmarried,Rent,Discover,No
+516,Female,24,18-24,18,College degree,Service,Less than 2,No,35,$25 - $49,19.3,Highly dissatisfied,Married,Own,American Express,No
+517,Female,77,65+,15,Some college,"Precision Production, Craft, Repair",More than 15,Yes,41,$25 - $49,16.1,Highly satisfied,Married,Rent,Mastercard,No
+518,Male,68,65+,22,Post-undergraduate degree,"Operation, Fabrication, General Labor",More than 15,Yes,32,$25 - $49,6.4,Somewhat dissatisfied,Unmarried,Rent,Discover,No
+519,Female,61,50-64,8,Did not complete high school,Sales and Office,6 to 10,No,25,$25 - $49,6.6,Neutral,Unmarried,Own,Other,No
+520,Female,36,35-49,16,Some college,"Operation, Fabrication, General Labor",6 to 10,No,21,Under $25,5.8,Highly satisfied,Married,Own,Visa,Yes
+521,Female,33,25-34,15,Some college,Managerial and Professional,2 to 5,No,35,$25 - $49,5.4,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+522,Female,55,50-64,15,Some college,"Precision Production, Craft, Repair",More than 15,No,95,$75 - $124,4.6,Highly satisfied,Unmarried,Rent,Discover,No
+523,Female,44,35-49,11,Did not complete high school,Managerial and Professional,6 to 10,No,72,$50 - $74,2.5,Somewhat dissatisfied,Married,Own,Visa,No
+524,Male,41,35-49,15,Some college,Sales and Office,2 to 5,No,39,$25 - $49,11.8,Highly satisfied,Unmarried,Own,Discover,Yes
+525,Female,51,50-64,11,Did not complete high school,Managerial and Professional,11 to 15,No,91,$75 - $124,9.8,Neutral,Married,Own,Mastercard,No
+526,Female,59,50-64,21,Post-undergraduate degree,Service,11 to 15,No,182,$125+,3.7,Somewhat satisfied,Unmarried,Own,Mastercard,No
+527,Male,50,50-64,19,College degree,Managerial and Professional,6 to 10,No,84,$75 - $124,4,Somewhat dissatisfied,Unmarried,Rent,Discover,No
+528,Female,59,50-64,9,Did not complete high school,Managerial and Professional,More than 15,No,76,$75 - $124,13,Highly satisfied,Unmarried,Own,Visa,No
+529,Female,67,65+,15,Some college,Agricultural and Natural Resources,More than 15,No,388,$125+,5.9,Somewhat satisfied,Married,Own,Discover,No
+530,Male,52,50-64,12,High school degree,Sales and Office,6 to 10,No,36,$25 - $49,13.7,Somewhat satisfied,Unmarried,Rent,Mastercard,No
+531,Female,62,50-64,19,College degree,Sales and Office,6 to 10,No,31,$25 - $49,18.5,Highly satisfied,Unmarried,Rent,Visa,Yes
+532,Male,27,25-34,12,High school degree,"Operation, Fabrication, General Labor",6 to 10,No,47,$25 - $49,0.2,Highly satisfied,Unmarried,Rent,Visa,No
+533,Male,36,35-49,18,College degree,Service,11 to 15,No,117,$75 - $124,6.9,Somewhat dissatisfied,Unmarried,Rent,Mastercard,Yes
+534,Male,18,18-24,13,High school degree,"Operation, Fabrication, General Labor",Less than 2,No,29,$25 - $49,13,Highly dissatisfied,Married,Own,Discover,Yes
+535,Female,65,65+,17,College degree,"Operation, Fabrication, General Labor",More than 15,Yes,96,$75 - $124,6.4,Highly satisfied,Unmarried,Own,American Express,No
+536,Male,29,25-34,16,Some college,Sales and Office,Less than 2,No,27,$25 - $49,0.9,Highly dissatisfied,Married,Rent,Visa,No
+537,Male,60,50-64,14,High school degree,Managerial and Professional,11 to 15,No,110,$75 - $124,3.1,Somewhat dissatisfied,Married,Rent,American Express,No
+538,Female,54,50-64,12,High school degree,"Precision Production, Craft, Repair",More than 15,No,155,$125+,6.4,Somewhat satisfied,Married,Own,Visa,No
+539,Male,23,18-24,16,Some college,Sales and Office,Less than 2,No,20,Under $25,5.7,Somewhat dissatisfied,Married,Own,Visa,Yes
+540,Female,66,65+,12,High school degree,Managerial and Professional,11 to 15,Yes,16,Under $25,2.6,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+541,Male,78,65+,11,Did not complete high school,Service,More than 15,Yes,28,$25 - $49,9.8,Highly satisfied,Married,Rent,Visa,No
+542,Female,48,35-49,11,Did not complete high school,Sales and Office,2 to 5,No,23,Under $25,18.7,Somewhat dissatisfied,Unmarried,Own,Other,Yes
+543,Male,21,18-24,16,Some college,Service,Less than 2,No,31,$25 - $49,9.2,Highly dissatisfied,Unmarried,Rent,Discover,Yes
+544,Female,68,65+,11,Did not complete high school,Agricultural and Natural Resources,More than 15,Yes,35,$25 - $49,12.2,Neutral,Married,Rent,American Express,No
+545,Male,33,25-34,14,High school degree,Sales and Office,2 to 5,No,82,$75 - $124,6.9,Somewhat satisfied,Married,Own,American Express,No
+546,Male,74,65+,11,Did not complete high school,Managerial and Professional,More than 15,Yes,18,Under $25,1.4,Highly satisfied,Unmarried,Rent,Other,No
+547,Female,68,65+,6,Did not complete high school,Sales and Office,6 to 10,Yes,9,Under $25,11,Highly satisfied,Married,Rent,Mastercard,No
+548,Female,54,50-64,19,College degree,Managerial and Professional,2 to 5,No,140,$125+,11.5,Neutral,Unmarried,Own,Visa,No
+549,Male,44,35-49,16,Some college,Sales and Office,Less than 2,No,89,$75 - $124,3.9,Neutral,Unmarried,Own,Discover,Yes
+550,Male,33,25-34,11,Did not complete high school,"Precision Production, Craft, Repair",6 to 10,No,31,$25 - $49,7.7,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+551,Female,20,18-24,13,High school degree,Sales and Office,Less than 2,No,15,Under $25,14,Highly dissatisfied,Married,Own,Discover,No
+552,Male,22,18-24,12,High school degree,Sales and Office,Less than 2,No,20,Under $25,10.9,Somewhat satisfied,Unmarried,Own,Other,Yes
+553,Female,45,35-49,17,College degree,Sales and Office,Less than 2,No,66,$50 - $74,12.5,Somewhat dissatisfied,Unmarried,Own,American Express,Yes
+554,Male,49,35-49,14,High school degree,Sales and Office,2 to 5,No,46,$25 - $49,8.8,Somewhat dissatisfied,Married,Own,American Express,No
+555,Female,29,25-34,17,College degree,Managerial and Professional,2 to 5,No,39,$25 - $49,9.8,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+556,Female,32,25-34,16,Some college,Sales and Office,Less than 2,No,21,Under $25,19.7,Neutral,Married,Own,Mastercard,No
+557,Male,36,35-49,21,Post-undergraduate degree,Sales and Office,2 to 5,No,48,$25 - $49,13.4,Neutral,Unmarried,Rent,Mastercard,No
+558,Female,69,65+,10,Did not complete high school,Sales and Office,6 to 10,No,41,$25 - $49,5,Somewhat satisfied,Unmarried,Rent,Mastercard,No
+559,Female,68,65+,11,Did not complete high school,Sales and Office,11 to 15,No,102,$75 - $124,8.7,Neutral,Unmarried,Own,American Express,No
+560,Female,55,50-64,10,Did not complete high school,"Precision Production, Craft, Repair",11 to 15,No,42,$25 - $49,6.1,Neutral,Married,Own,Visa,No
+561,Male,30,25-34,17,College degree,"Precision Production, Craft, Repair",6 to 10,No,109,$75 - $124,18.4,Somewhat satisfied,Married,Own,American Express,Yes
+562,Female,52,50-64,8,Did not complete high school,Service,More than 15,No,50,$50 - $74,4.2,Highly satisfied,Married,Rent,Other,No
+563,Male,55,50-64,17,College degree,"Operation, Fabrication, General Labor",More than 15,No,101,$75 - $124,14.6,Highly satisfied,Unmarried,Own,Discover,Yes
+564,Male,42,35-49,15,Some college,Sales and Office,2 to 5,No,65,$50 - $74,5.8,Neutral,Unmarried,Own,American Express,Yes
+565,Male,19,18-24,12,High school degree,Sales and Office,Less than 2,No,25,$25 - $49,10.5,Neutral,Unmarried,Own,Visa,Yes
+566,Male,46,35-49,16,Some college,"Operation, Fabrication, General Labor",6 to 10,No,24,Under $25,1.3,Somewhat satisfied,Married,Own,Visa,No
+567,Female,38,35-49,10,Did not complete high school,Service,11 to 15,No,37,$25 - $49,8.5,Neutral,Unmarried,Own,Visa,No
+568,Female,21,18-24,14,High school degree,"Precision Production, Craft, Repair",Less than 2,No,29,$25 - $49,18.9,Somewhat dissatisfied,Unmarried,Rent,Mastercard,Yes
+569,Male,79,65+,12,High school degree,Sales and Office,6 to 10,Yes,9,Under $25,3.8,Neutral,Married,Rent,Mastercard,No
+570,Female,53,50-64,12,High school degree,Sales and Office,6 to 10,No,32,$25 - $49,6.7,Somewhat satisfied,Married,Rent,Mastercard,No
+571,Male,44,35-49,11,Did not complete high school,Service,11 to 15,No,66,$50 - $74,0.4,Somewhat satisfied,Unmarried,Own,Other,No
+572,Female,19,18-24,14,High school degree,"Precision Production, Craft, Repair",Less than 2,No,13,Under $25,10.8,Highly dissatisfied,Unmarried,Own,American Express,Yes
+573,Male,29,25-34,19,College degree,Managerial and Professional,Less than 2,No,71,$50 - $74,10.7,Highly dissatisfied,Unmarried,Own,American Express,Yes
+574,Female,24,18-24,11,Did not complete high school,Managerial and Professional,2 to 5,No,18,Under $25,8.1,Highly dissatisfied,Married,Rent,Mastercard,No
+575,Male,74,65+,16,Some college,Managerial and Professional,More than 15,No,51,$50 - $74,17.7,Somewhat satisfied,Married,Rent,Visa,No
+576,Male,44,35-49,14,High school degree,Service,More than 15,No,154,$125+,2.4,Somewhat satisfied,Unmarried,Rent,Discover,No
+577,Male,61,50-64,11,Did not complete high school,"Precision Production, Craft, Repair",More than 15,No,143,$125+,5,Neutral,Married,Own,Mastercard,No
+578,Female,70,65+,18,College degree,"Operation, Fabrication, General Labor",More than 15,No,117,$75 - $124,7.1,Somewhat satisfied,Unmarried,Rent,Visa,No
+579,Female,49,35-49,11,Did not complete high school,Sales and Office,2 to 5,No,31,$25 - $49,0.3,Somewhat dissatisfied,Unmarried,Rent,American Express,No
+580,Female,57,50-64,20,Post-undergraduate degree,Managerial and Professional,6 to 10,No,47,$25 - $49,9.4,Neutral,Married,Rent,Discover,No
+581,Female,34,25-34,12,High school degree,"Precision Production, Craft, Repair",6 to 10,No,37,$25 - $49,20.1,Neutral,Unmarried,Rent,American Express,No
+582,Male,56,50-64,13,High school degree,"Operation, Fabrication, General Labor",More than 15,Yes,54,$50 - $74,5.4,Highly satisfied,Married,Own,Discover,No
+583,Male,36,35-49,14,High school degree,Sales and Office,2 to 5,No,29,$25 - $49,11.9,Neutral,Unmarried,Own,Visa,Yes
+584,Male,57,50-64,12,High school degree,Sales and Office,6 to 10,No,25,$25 - $49,7.3,Somewhat dissatisfied,Unmarried,Rent,Visa,No
+585,Male,63,50-64,11,Did not complete high school,"Precision Production, Craft, Repair",More than 15,Yes,9,Under $25,16.1,Somewhat satisfied,Married,Own,American Express,No
+586,Female,37,35-49,8,Did not complete high school,Managerial and Professional,11 to 15,No,52,$50 - $74,12.6,Somewhat dissatisfied,Married,Own,Mastercard,No
+587,Female,37,35-49,12,High school degree,Sales and Office,Less than 2,No,26,$25 - $49,7,Highly dissatisfied,Unmarried,Own,Discover,No
+588,Female,75,65+,10,Did not complete high school,Managerial and Professional,More than 15,No,107,$75 - $124,2,Highly satisfied,Unmarried,Rent,Visa,No
+589,Female,25,25-34,13,High school degree,Sales and Office,Less than 2,No,32,$25 - $49,6.9,Highly satisfied,Married,Own,Visa,No
+590,Male,43,35-49,8,Did not complete high school,Sales and Office,2 to 5,No,28,$25 - $49,12.2,Highly satisfied,Unmarried,Rent,Mastercard,No
+591,Male,78,65+,12,High school degree,Managerial and Professional,More than 15,Yes,20,Under $25,9.8,Somewhat dissatisfied,Married,Own,Mastercard,Yes
+592,Female,63,50-64,11,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,No,304,$125+,16.6,Highly satisfied,Unmarried,Own,Visa,Yes
+593,Female,18,18-24,13,High school degree,Agricultural and Natural Resources,Less than 2,No,14,Under $25,14.8,Highly dissatisfied,Married,Own,Mastercard,No
+594,Male,76,65+,12,High school degree,Sales and Office,More than 15,Yes,14,Under $25,3.7,Somewhat dissatisfied,Married,Own,Mastercard,No
+595,Female,79,65+,14,High school degree,Managerial and Professional,More than 15,Yes,9,Under $25,18.4,Somewhat satisfied,Unmarried,Rent,American Express,No
+596,Female,21,18-24,12,High school degree,Sales and Office,Less than 2,No,14,Under $25,12.5,Somewhat dissatisfied,Unmarried,Own,Mastercard,Yes
+597,Male,74,65+,10,Did not complete high school,Service,More than 15,Yes,33,$25 - $49,11.9,Highly satisfied,Unmarried,Own,Other,No
+598,Female,63,50-64,11,Did not complete high school,Service,More than 15,Yes,18,Under $25,8.5,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+599,Male,24,18-24,14,High school degree,Managerial and Professional,Less than 2,No,22,Under $25,22.9,Neutral,Unmarried,Own,American Express,Yes
+600,Male,42,35-49,11,Did not complete high school,Managerial and Professional,6 to 10,No,40,$25 - $49,3.4,Somewhat dissatisfied,Unmarried,Rent,Discover,No
+601,Male,52,50-64,18,College degree,"Operation, Fabrication, General Labor",11 to 15,No,59,$50 - $74,18.9,Somewhat dissatisfied,Unmarried,Own,Discover,No
+602,Male,19,18-24,14,High school degree,"Precision Production, Craft, Repair",Less than 2,No,20,Under $25,21.8,Highly dissatisfied,Unmarried,Rent,Visa,Yes
+603,Female,25,25-34,18,College degree,Sales and Office,Less than 2,No,36,$25 - $49,17.9,Somewhat dissatisfied,Married,Own,Other,Yes
+604,Male,23,18-24,14,High school degree,Service,2 to 5,No,61,$50 - $74,23.4,Somewhat dissatisfied,Married,Own,Discover,Yes
+605,Male,68,65+,12,High school degree,Managerial and Professional,6 to 10,No,24,Under $25,13.8,Neutral,Married,Rent,Discover,No
+606,Male,28,25-34,9,Did not complete high school,Sales and Office,Less than 2,No,18,Under $25,6.8,Somewhat dissatisfied,Married,Own,American Express,Yes
+607,Female,66,65+,13,High school degree,Managerial and Professional,More than 15,No,167,$125+,11.5,Neutral,Unmarried,Own,Visa,No
+608,Female,78,65+,9,Did not complete high school,Sales and Office,11 to 15,No,25,$25 - $49,11.6,Neutral,Unmarried,Rent,Mastercard,No
+609,Male,25,25-34,14,High school degree,Service,2 to 5,No,27,$25 - $49,10.3,Somewhat dissatisfied,Unmarried,Rent,American Express,Yes
+610,Male,19,18-24,14,High school degree,Sales and Office,Less than 2,No,25,$25 - $49,9.9,Highly dissatisfied,Married,Rent,Discover,No
+611,Male,49,35-49,9,Did not complete high school,Sales and Office,2 to 5,No,45,$25 - $49,2.8,Somewhat satisfied,Married,Own,Mastercard,No
+612,Female,30,25-34,13,High school degree,"Operation, Fabrication, General Labor",6 to 10,No,16,Under $25,9.3,Highly dissatisfied,Married,Own,Mastercard,No
+613,Female,63,50-64,10,Did not complete high school,Sales and Office,2 to 5,No,30,$25 - $49,14.4,Neutral,Married,Rent,Mastercard,Yes
+614,Female,55,50-64,12,High school degree,Service,More than 15,No,79,$75 - $124,28,Somewhat dissatisfied,Married,Own,Discover,No
+615,Male,32,25-34,11,Did not complete high school,Managerial and Professional,2 to 5,No,32,$25 - $49,11.7,Somewhat dissatisfied,Married,Own,American Express,Yes
+616,Female,50,50-64,12,High school degree,"Operation, Fabrication, General Labor",More than 15,No,86,$75 - $124,12.7,Somewhat satisfied,Married,Rent,American Express,Yes
+617,Female,54,50-64,9,Did not complete high school,Service,11 to 15,No,77,$75 - $124,7.6,Neutral,Unmarried,Own,Mastercard,No
+618,Female,46,35-49,8,Did not complete high school,Service,11 to 15,No,44,$25 - $49,8.2,Neutral,Married,Rent,Mastercard,No
+619,Male,42,35-49,10,Did not complete high school,Service,6 to 10,No,38,$25 - $49,9.7,Neutral,Married,Own,Discover,No
+620,Male,47,35-49,9,Did not complete high school,Sales and Office,6 to 10,No,72,$50 - $74,21.1,Highly satisfied,Unmarried,Rent,Visa,Yes
+621,Female,55,50-64,15,Some college,"Operation, Fabrication, General Labor",More than 15,No,49,$25 - $49,14.8,Highly dissatisfied,Unmarried,Own,Discover,No
+622,Male,61,50-64,13,High school degree,Sales and Office,6 to 10,No,56,$50 - $74,21.3,Neutral,Unmarried,Rent,American Express,No
+623,Male,61,50-64,13,High school degree,"Operation, Fabrication, General Labor",More than 15,No,180,$125+,14,Highly satisfied,Married,Own,Visa,Yes
+624,Male,29,25-34,15,Some college,Sales and Office,Less than 2,No,20,Under $25,11.9,Highly dissatisfied,Unmarried,Rent,Mastercard,No
+625,Female,32,25-34,19,College degree,Managerial and Professional,2 to 5,No,47,$25 - $49,5,Somewhat satisfied,Unmarried,Rent,American Express,No
+626,Female,23,18-24,8,Did not complete high school,Service,2 to 5,No,24,Under $25,5.2,Somewhat satisfied,Married,Own,Visa,No
+627,Female,34,25-34,14,High school degree,"Operation, Fabrication, General Labor",6 to 10,No,26,$25 - $49,14.6,Somewhat satisfied,Married,Rent,Visa,No
+628,Female,36,35-49,12,High school degree,Agricultural and Natural Resources,6 to 10,No,48,$25 - $49,3,Highly satisfied,Unmarried,Own,Visa,No
+629,Female,42,35-49,15,Some college,Agricultural and Natural Resources,11 to 15,No,44,$25 - $49,11.5,Highly dissatisfied,Married,Own,Discover,No
+630,Female,37,35-49,13,High school degree,Managerial and Professional,2 to 5,No,37,$25 - $49,5.5,Somewhat dissatisfied,Married,Own,Mastercard,No
+631,Male,34,25-34,11,Did not complete high school,Service,6 to 10,No,41,$25 - $49,0.5,Highly dissatisfied,Married,Own,Mastercard,No
+632,Male,56,50-64,17,College degree,Sales and Office,2 to 5,No,32,$25 - $49,5.8,Highly satisfied,Married,Own,Mastercard,No
+633,Female,44,35-49,12,High school degree,Service,6 to 10,No,62,$50 - $74,4,Neutral,Unmarried,Rent,Discover,No
+634,Female,46,35-49,12,High school degree,Sales and Office,2 to 5,No,27,$25 - $49,5,Highly dissatisfied,Unmarried,Rent,Visa,No
+635,Female,53,50-64,9,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,No,130,$125+,12.6,Somewhat satisfied,Married,Own,Discover,No
+636,Male,60,50-64,8,Did not complete high school,Agricultural and Natural Resources,More than 15,No,106,$75 - $124,29,Highly satisfied,Married,Own,Mastercard,No
+637,Male,35,35-49,13,High school degree,"Operation, Fabrication, General Labor",11 to 15,No,44,$25 - $49,21.7,Somewhat satisfied,Married,Own,Discover,Yes
+638,Female,35,35-49,19,College degree,Sales and Office,2 to 5,No,60,$50 - $74,9.9,Neutral,Married,Own,Visa,Yes
+639,Female,33,25-34,18,College degree,Managerial and Professional,2 to 5,No,33,$25 - $49,16.4,Highly dissatisfied,Unmarried,Own,Visa,No
+640,Male,18,18-24,13,High school degree,Sales and Office,Less than 2,No,20,Under $25,12.7,Highly dissatisfied,Unmarried,Own,Visa,Yes
+641,Female,39,35-49,17,College degree,"Operation, Fabrication, General Labor",6 to 10,No,54,$50 - $74,15.5,Somewhat satisfied,Married,Own,Discover,Yes
+642,Male,25,25-34,17,College degree,Managerial and Professional,Less than 2,No,19,Under $25,1.1,Highly dissatisfied,Unmarried,Own,Visa,No
+643,Male,56,50-64,16,Some college,"Precision Production, Craft, Repair",More than 15,No,170,$125+,4.5,Highly satisfied,Married,Own,Discover,No
+644,Male,46,35-49,16,Some college,Sales and Office,2 to 5,No,29,$25 - $49,13.7,Highly dissatisfied,Married,Rent,Mastercard,No
+645,Male,60,50-64,15,Some college,Sales and Office,11 to 15,No,142,$125+,14.5,Neutral,Unmarried,Rent,Visa,Yes
+646,Female,78,65+,8,Did not complete high school,Agricultural and Natural Resources,More than 15,Yes,19,Under $25,9.4,Neutral,Unmarried,Own,Visa,No
+647,Male,47,35-49,10,Did not complete high school,Sales and Office,2 to 5,No,29,$25 - $49,5.8,Highly dissatisfied,Married,Rent,Mastercard,No
+648,Female,48,35-49,17,College degree,Sales and Office,6 to 10,No,91,$75 - $124,3,Somewhat satisfied,Unmarried,Own,Visa,No
+649,Male,69,65+,9,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,29,$25 - $49,8.9,Highly satisfied,Married,Rent,Discover,No
+650,Female,40,35-49,21,Post-undergraduate degree,Sales and Office,2 to 5,No,138,$125+,6.2,Somewhat satisfied,Married,Own,American Express,No
+651,Male,77,65+,12,High school degree,Managerial and Professional,More than 15,No,53,$50 - $74,8.2,Highly satisfied,Unmarried,Own,Discover,No
+652,Female,73,65+,9,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,25,$25 - $49,7.3,Somewhat satisfied,Unmarried,Own,Mastercard,No
+653,Female,48,35-49,11,Did not complete high school,Sales and Office,2 to 5,No,36,$25 - $49,17.3,Somewhat satisfied,Unmarried,Own,Discover,No
+654,Male,48,35-49,14,High school degree,"Operation, Fabrication, General Labor",More than 15,No,134,$125+,12.1,Highly satisfied,Married,Rent,Discover,No
+655,Female,61,50-64,15,Some college,Managerial and Professional,11 to 15,No,46,$25 - $49,6.4,Highly satisfied,Married,Own,Discover,No
+656,Female,31,25-34,12,High school degree,Sales and Office,Less than 2,No,31,$25 - $49,18.4,Somewhat dissatisfied,Unmarried,Rent,American Express,No
+657,Female,22,18-24,17,College degree,Managerial and Professional,Less than 2,No,20,Under $25,6.9,Somewhat dissatisfied,Unmarried,Rent,Visa,No
+658,Male,34,25-34,13,High school degree,Managerial and Professional,6 to 10,No,45,$25 - $49,10.9,Neutral,Unmarried,Own,Discover,Yes
+659,Female,63,50-64,10,Did not complete high school,"Precision Production, Craft, Repair",More than 15,Yes,14,Under $25,6.9,Highly satisfied,Married,Own,Visa,No
+660,Male,52,50-64,10,Did not complete high school,Service,More than 15,No,67,$50 - $74,4.1,Somewhat satisfied,Married,Own,Other,No
+661,Female,64,50-64,8,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,No,133,$125+,9.8,Highly satisfied,Unmarried,Own,Visa,No
+662,Female,26,25-34,14,High school degree,Service,2 to 5,No,37,$25 - $49,8.6,Neutral,Married,Rent,Discover,Yes
+663,Female,26,25-34,12,High school degree,Service,2 to 5,No,19,Under $25,1.9,Neutral,Married,Own,Visa,No
+664,Female,78,65+,8,Did not complete high school,Sales and Office,6 to 10,Yes,15,Under $25,15.9,Neutral,Unmarried,Rent,Other,No
+665,Female,19,18-24,14,High school degree,"Operation, Fabrication, General Labor",Less than 2,No,17,Under $25,7.8,Highly dissatisfied,Married,Own,Mastercard,No
+666,Male,60,50-64,16,Some college,Managerial and Professional,11 to 15,No,75,$75 - $124,6.5,Neutral,Married,Own,American Express,No
+667,Male,55,50-64,12,High school degree,Sales and Office,6 to 10,No,89,$75 - $124,5.5,Highly satisfied,Married,Own,Discover,No
+668,Female,57,50-64,11,Did not complete high school,"Precision Production, Craft, Repair",More than 15,No,166,$125+,11.8,Highly satisfied,Unmarried,Own,Other,No
+669,Female,53,50-64,13,High school degree,Sales and Office,2 to 5,No,27,$25 - $49,16.2,Neutral,Married,Rent,Mastercard,No
+670,Male,65,65+,14,High school degree,Sales and Office,2 to 5,Yes,9,Under $25,12.5,Highly dissatisfied,Married,Rent,American Express,No
+671,Female,61,50-64,9,Did not complete high school,Managerial and Professional,More than 15,No,80,$75 - $124,6.9,Neutral,Unmarried,Own,Discover,No
+672,Female,18,18-24,12,High school degree,Managerial and Professional,Less than 2,No,15,Under $25,3.8,Somewhat dissatisfied,Married,Own,Other,Yes
+673,Female,51,50-64,14,High school degree,Managerial and Professional,6 to 10,No,99,$75 - $124,15.4,Highly satisfied,Unmarried,Own,Discover,No
+674,Female,79,65+,19,College degree,Managerial and Professional,More than 15,Yes,14,Under $25,9.2,Neutral,Unmarried,Rent,American Express,No
+675,Female,71,65+,11,Did not complete high school,Sales and Office,More than 15,No,93,$75 - $124,8.2,Highly satisfied,Unmarried,Rent,Visa,No
+676,Female,59,50-64,14,High school degree,Sales and Office,2 to 5,No,36,$25 - $49,13,Somewhat satisfied,Married,Rent,Visa,No
+677,Female,71,65+,19,College degree,Sales and Office,6 to 10,Yes,14,Under $25,23,Somewhat satisfied,Unmarried,Rent,Visa,No
+678,Male,28,25-34,14,High school degree,Sales and Office,2 to 5,No,20,Under $25,3.2,Somewhat dissatisfied,Unmarried,Rent,Discover,No
+679,Male,70,65+,12,High school degree,"Precision Production, Craft, Repair",More than 15,Yes,13,Under $25,17,Somewhat satisfied,Unmarried,Rent,Discover,No
+680,Male,55,50-64,14,High school degree,Sales and Office,11 to 15,No,69,$50 - $74,7.1,Highly satisfied,Unmarried,Rent,Mastercard,No
+681,Male,44,35-49,10,Did not complete high school,Managerial and Professional,6 to 10,No,31,$25 - $49,14.6,Neutral,Married,Own,Mastercard,No
+682,Male,50,50-64,13,High school degree,Sales and Office,2 to 5,No,29,$25 - $49,9.5,Highly dissatisfied,Married,Rent,Discover,No
+683,Female,60,50-64,10,Did not complete high school,Sales and Office,More than 15,No,89,$75 - $124,6.1,Somewhat satisfied,Unmarried,Own,Visa,No
+684,Female,48,35-49,15,Some college,Agricultural and Natural Resources,More than 15,No,300,$125+,5.7,Somewhat satisfied,Unmarried,Own,Mastercard,No
+685,Female,42,35-49,15,Some college,Managerial and Professional,6 to 10,No,47,$25 - $49,5.2,Somewhat satisfied,Married,Own,American Express,No
+686,Female,40,35-49,13,High school degree,Sales and Office,2 to 5,No,61,$50 - $74,22,Neutral,Married,Own,Mastercard,Yes
+687,Male,64,50-64,14,High school degree,Sales and Office,11 to 15,No,50,$50 - $74,21.9,Somewhat satisfied,Married,Own,Other,Yes
+688,Female,73,65+,11,Did not complete high school,Service,More than 15,No,188,$125+,5.7,Neutral,Unmarried,Own,Visa,No
+689,Female,53,50-64,13,High school degree,Sales and Office,2 to 5,No,21,Under $25,5.9,Neutral,Unmarried,Rent,Discover,No
+690,Female,26,25-34,12,High school degree,Service,2 to 5,No,30,$25 - $49,4.1,Highly dissatisfied,Married,Rent,Visa,No
+691,Female,23,18-24,13,High school degree,Sales and Office,Less than 2,No,18,Under $25,4.5,Highly dissatisfied,Married,Own,Mastercard,No
+692,Male,44,35-49,14,High school degree,Agricultural and Natural Resources,More than 15,No,41,$25 - $49,14.4,Highly satisfied,Unmarried,Own,Mastercard,No
+693,Female,58,50-64,11,Did not complete high school,Sales and Office,11 to 15,No,48,$25 - $49,5.6,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+694,Male,46,35-49,8,Did not complete high school,Agricultural and Natural Resources,More than 15,No,26,$25 - $49,6.8,Highly satisfied,Unmarried,Rent,Mastercard,No
+695,Female,46,35-49,16,Some college,"Operation, Fabrication, General Labor",11 to 15,No,58,$50 - $74,11,Neutral,Unmarried,Own,Discover,No
+696,Male,57,50-64,12,High school degree,Sales and Office,2 to 5,No,43,$25 - $49,8.6,Somewhat dissatisfied,Married,Own,Visa,No
+697,Male,48,35-49,20,Post-undergraduate degree,Sales and Office,2 to 5,No,46,$25 - $49,0.8,Somewhat dissatisfied,Unmarried,Own,American Express,No
+698,Female,38,35-49,15,Some college,"Operation, Fabrication, General Labor",6 to 10,No,57,$50 - $74,15.9,Highly dissatisfied,Married,Rent,Discover,No
+699,Male,69,65+,14,High school degree,Sales and Office,6 to 10,No,40,$25 - $49,9.7,Highly dissatisfied,Married,Own,Discover,No
+700,Female,65,65+,10,Did not complete high school,Agricultural and Natural Resources,More than 15,No,144,$125+,11.3,Highly satisfied,Unmarried,Own,American Express,No
+701,Female,23,18-24,14,High school degree,Sales and Office,Less than 2,No,21,Under $25,9.5,Somewhat dissatisfied,Unmarried,Own,Visa,No
+702,Female,56,50-64,16,Some college,Managerial and Professional,6 to 10,No,142,$125+,12.1,Highly satisfied,Married,Own,Mastercard,No
+703,Male,60,50-64,11,Did not complete high school,Managerial and Professional,More than 15,No,52,$50 - $74,4.3,Somewhat satisfied,Unmarried,Rent,American Express,No
+704,Female,32,25-34,8,Did not complete high school,"Precision Production, Craft, Repair",6 to 10,No,40,$25 - $49,17.6,Neutral,Married,Own,Mastercard,Yes
+705,Male,33,25-34,17,College degree,Sales and Office,Less than 2,No,47,$25 - $49,11.4,Neutral,Unmarried,Own,Discover,No
+706,Female,61,50-64,13,High school degree,Agricultural and Natural Resources,More than 15,Yes,29,$25 - $49,10.3,Highly satisfied,Married,Own,Mastercard,No
+707,Female,50,50-64,13,High school degree,Sales and Office,2 to 5,No,24,Under $25,4,Somewhat satisfied,Unmarried,Own,Visa,No
+708,Female,74,65+,16,Some college,Sales and Office,2 to 5,Yes,16,Under $25,3.3,Highly dissatisfied,Married,Rent,Discover,No
+709,Female,57,50-64,10,Did not complete high school,Service,11 to 15,No,56,$50 - $74,12.1,Highly satisfied,Unmarried,Own,Visa,No
+710,Female,79,65+,11,Did not complete high school,Sales and Office,2 to 5,Yes,10,Under $25,4.6,Highly dissatisfied,Married,Rent,Mastercard,No
+711,Male,70,65+,14,High school degree,Sales and Office,2 to 5,No,49,$25 - $49,15.9,Highly satisfied,Unmarried,Own,Discover,No
+712,Male,21,18-24,16,Some college,Sales and Office,Less than 2,No,20,Under $25,14.9,Highly dissatisfied,Married,Own,Visa,Yes
+713,Female,21,18-24,16,Some college,Sales and Office,Less than 2,No,29,$25 - $49,6.9,Highly dissatisfied,Married,Own,Mastercard,No
+714,Female,26,25-34,19,College degree,Managerial and Professional,Less than 2,No,54,$50 - $74,1.7,Highly dissatisfied,Married,Own,Visa,No
+715,Female,44,35-49,11,Did not complete high school,Sales and Office,2 to 5,No,40,$25 - $49,10.3,Highly satisfied,Married,Own,Mastercard,No
+716,Male,42,35-49,17,College degree,Sales and Office,2 to 5,No,29,$25 - $49,11.7,Neutral,Married,Own,American Express,Yes
+717,Male,45,35-49,18,College degree,Sales and Office,Less than 2,No,38,$25 - $49,16.7,Highly dissatisfied,Unmarried,Own,Mastercard,Yes
+718,Female,76,65+,10,Did not complete high school,Sales and Office,11 to 15,Yes,29,$25 - $49,6.7,Highly satisfied,Married,Rent,Mastercard,No
+719,Male,51,50-64,12,High school degree,"Operation, Fabrication, General Labor",More than 15,No,40,$25 - $49,12.8,Neutral,Married,Own,Visa,No
+720,Male,53,50-64,14,High school degree,Service,11 to 15,No,97,$75 - $124,6.4,Highly satisfied,Unmarried,Own,Mastercard,No
+721,Female,58,50-64,16,Some college,Sales and Office,11 to 15,No,129,$125+,8.4,Highly satisfied,Married,Own,Discover,No
+722,Female,26,25-34,13,High school degree,"Operation, Fabrication, General Labor",2 to 5,No,21,Under $25,1.2,Somewhat satisfied,Married,Own,Discover,No
+723,Female,78,65+,12,High school degree,"Operation, Fabrication, General Labor",More than 15,Yes,84,$75 - $124,25.7,Somewhat dissatisfied,Unmarried,Own,Other,No
+724,Male,19,18-24,11,Did not complete high school,Sales and Office,Less than 2,No,23,Under $25,25.9,Highly dissatisfied,Married,Own,American Express,Yes
+725,Female,66,65+,17,College degree,Sales and Office,2 to 5,No,59,$50 - $74,12.1,Somewhat satisfied,Unmarried,Own,Discover,No
+726,Male,23,18-24,18,College degree,Sales and Office,Less than 2,No,84,$75 - $124,5.7,Highly dissatisfied,Unmarried,Rent,Visa,No
+727,Female,57,50-64,8,Did not complete high school,Agricultural and Natural Resources,More than 15,No,73,$50 - $74,6.3,Somewhat satisfied,Unmarried,Own,Mastercard,No
+728,Male,57,50-64,19,College degree,Managerial and Professional,11 to 15,No,40,$25 - $49,2.3,Neutral,Married,Own,Visa,No
+729,Female,39,35-49,12,High school degree,Managerial and Professional,2 to 5,No,24,Under $25,7,Somewhat dissatisfied,Married,Own,American Express,Yes
+730,Male,28,25-34,18,College degree,"Operation, Fabrication, General Labor",2 to 5,No,29,$25 - $49,9.7,Highly dissatisfied,Married,Own,Visa,Yes
+731,Female,29,25-34,12,High school degree,Managerial and Professional,2 to 5,No,24,Under $25,7.8,Highly dissatisfied,Married,Own,American Express,Yes
+732,Female,58,50-64,8,Did not complete high school,Sales and Office,6 to 10,No,38,$25 - $49,9.1,Somewhat satisfied,Unmarried,Rent,Mastercard,No
+733,Male,63,50-64,18,College degree,Service,More than 15,No,52,$50 - $74,9.6,Neutral,Unmarried,Own,Visa,No
+734,Male,74,65+,17,College degree,"Operation, Fabrication, General Labor",More than 15,Yes,26,$25 - $49,11.2,Neutral,Unmarried,Own,Discover,No
+735,Female,22,18-24,11,Did not complete high school,Sales and Office,Less than 2,No,31,$25 - $49,9.5,Highly dissatisfied,Married,Own,Visa,No
+736,Male,25,25-34,17,College degree,"Precision Production, Craft, Repair",Less than 2,No,23,Under $25,2.8,Highly dissatisfied,Married,Own,American Express,No
+737,Female,27,25-34,16,Some college,Sales and Office,Less than 2,No,30,$25 - $49,4.1,Somewhat dissatisfied,Married,Rent,Visa,Yes
+738,Male,32,25-34,20,Post-undergraduate degree,Sales and Office,Less than 2,No,59,$50 - $74,7,Somewhat dissatisfied,Unmarried,Own,Discover,Yes
+739,Female,60,50-64,8,Did not complete high school,Sales and Office,11 to 15,No,46,$25 - $49,7.3,Somewhat satisfied,Married,Own,Visa,Yes
+740,Female,34,25-34,11,Did not complete high school,Managerial and Professional,6 to 10,No,64,$50 - $74,6.1,Neutral,Married,Own,Visa,No
+741,Male,46,35-49,15,Some college,Sales and Office,2 to 5,No,37,$25 - $49,10.8,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+742,Female,52,50-64,8,Did not complete high school,"Precision Production, Craft, Repair",More than 15,No,84,$75 - $124,13.1,Highly satisfied,Unmarried,Own,Mastercard,No
+743,Male,67,65+,15,Some college,Service,11 to 15,No,181,$125+,24.1,Highly satisfied,Unmarried,Own,Discover,Yes
+744,Male,66,65+,11,Did not complete high school,Service,More than 15,Yes,26,$25 - $49,6.9,Neutral,Married,Rent,American Express,No
+745,Female,58,50-64,11,Did not complete high school,Managerial and Professional,6 to 10,No,42,$25 - $49,10.9,Somewhat satisfied,Unmarried,Rent,Mastercard,No
+746,Male,43,35-49,13,High school degree,Sales and Office,2 to 5,No,20,Under $25,8.5,Somewhat dissatisfied,Married,Own,Mastercard,No
+747,Female,57,50-64,8,Did not complete high school,Managerial and Professional,More than 15,No,171,$125+,12.3,Neutral,Married,Own,Mastercard,No
+748,Female,72,65+,18,College degree,Managerial and Professional,11 to 15,Yes,10,Under $25,7.3,Highly dissatisfied,Unmarried,Rent,Discover,No
+749,Male,45,35-49,16,Some college,Service,6 to 10,No,43,$25 - $49,8,Neutral,Married,Rent,Discover,No
+750,Female,24,18-24,14,High school degree,Sales and Office,Less than 2,No,26,$25 - $49,14.6,Highly dissatisfied,Unmarried,Own,Mastercard,Yes
+751,Male,65,65+,15,Some college,Sales and Office,2 to 5,Yes,10,Under $25,16.4,Somewhat dissatisfied,Married,Own,Other,No
+752,Female,39,35-49,21,Post-undergraduate degree,Sales and Office,Less than 2,No,35,$25 - $49,2.6,Highly dissatisfied,Unmarried,Own,Discover,Yes
+753,Male,63,50-64,9,Did not complete high school,Managerial and Professional,11 to 15,Yes,13,Under $25,10.8,Somewhat dissatisfied,Unmarried,Rent,Mastercard,No
+754,Female,40,35-49,11,Did not complete high school,Sales and Office,Less than 2,No,62,$50 - $74,1.1,Neutral,Married,Own,American Express,No
+755,Male,22,18-24,10,Did not complete high school,Sales and Office,2 to 5,No,16,Under $25,16.8,Highly dissatisfied,Married,Own,Other,Yes
+756,Male,54,50-64,13,High school degree,Sales and Office,2 to 5,No,29,$25 - $49,6.6,Highly satisfied,Married,Own,Mastercard,No
+757,Female,63,50-64,13,High school degree,"Operation, Fabrication, General Labor",More than 15,Yes,55,$50 - $74,7.5,Highly satisfied,Married,Own,Mastercard,No
+758,Male,50,50-64,17,College degree,"Operation, Fabrication, General Labor",More than 15,No,97,$75 - $124,17.8,Highly satisfied,Married,Own,American Express,No
+759,Male,28,25-34,17,College degree,Sales and Office,Less than 2,No,34,$25 - $49,1.5,Highly dissatisfied,Married,Rent,American Express,Yes
+760,Male,66,65+,19,College degree,Managerial and Professional,More than 15,No,165,$125+,5,Highly satisfied,Unmarried,Own,Discover,No
+761,Female,37,35-49,12,High school degree,"Precision Production, Craft, Repair",6 to 10,No,37,$25 - $49,9.2,Highly dissatisfied,Married,Own,American Express,No
+762,Male,45,35-49,13,High school degree,Managerial and Professional,2 to 5,No,42,$25 - $49,5.8,Neutral,Unmarried,Own,American Express,No
+763,Male,48,35-49,13,High school degree,Sales and Office,2 to 5,No,36,$25 - $49,2.2,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+764,Male,28,25-34,16,Some college,"Operation, Fabrication, General Labor",2 to 5,No,25,$25 - $49,15.7,Somewhat dissatisfied,Unmarried,Rent,Mastercard,Yes
+765,Female,28,25-34,19,College degree,Managerial and Professional,2 to 5,No,30,$25 - $49,26,Highly dissatisfied,Unmarried,Rent,Mastercard,Yes
+766,Male,61,50-64,7,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,15,Under $25,11.2,Somewhat satisfied,Married,Own,Mastercard,No
+767,Female,24,18-24,19,College degree,Managerial and Professional,Less than 2,No,23,Under $25,5.2,Highly dissatisfied,Married,Rent,Mastercard,No
+768,Male,18,18-24,13,High school degree,Managerial and Professional,Less than 2,No,12,Under $25,6.4,Highly dissatisfied,Unmarried,Own,American Express,Yes
+769,Male,67,65+,16,Some college,"Operation, Fabrication, General Labor",More than 15,No,137,$125+,12.8,Somewhat satisfied,Married,Own,Discover,No
+770,Female,58,50-64,18,College degree,Sales and Office,Less than 2,No,145,$125+,20.4,Neutral,Unmarried,Own,Visa,Yes
+771,Female,69,65+,17,College degree,Sales and Office,2 to 5,Yes,10,Under $25,6.5,Somewhat dissatisfied,Unmarried,Rent,American Express,No
+772,Female,43,35-49,9,Did not complete high school,"Precision Production, Craft, Repair",6 to 10,No,30,$25 - $49,28.9,Highly satisfied,Unmarried,Own,Visa,Yes
+773,Female,27,25-34,14,High school degree,Managerial and Professional,2 to 5,No,21,Under $25,9,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+774,Male,69,65+,12,High school degree,"Operation, Fabrication, General Labor",More than 15,No,56,$50 - $74,9,Highly satisfied,Married,Own,Discover,No
+775,Female,51,50-64,13,High school degree,Sales and Office,6 to 10,No,76,$75 - $124,3.6,Neutral,Unmarried,Own,Visa,No
+776,Female,37,35-49,20,Post-undergraduate degree,Managerial and Professional,2 to 5,No,32,$25 - $49,7,Neutral,Married,Rent,Visa,No
+777,Male,65,65+,15,Some college,"Precision Production, Craft, Repair",More than 15,No,273,$125+,6,Highly satisfied,Unmarried,Own,Mastercard,No
+778,Male,18,18-24,12,High school degree,Managerial and Professional,Less than 2,No,14,Under $25,10.4,Highly dissatisfied,Unmarried,Rent,Visa,Yes
+779,Female,41,35-49,15,Some college,"Precision Production, Craft, Repair",11 to 15,No,54,$50 - $74,5.1,Somewhat satisfied,Unmarried,Rent,Visa,No
+780,Female,52,50-64,11,Did not complete high school,Managerial and Professional,6 to 10,No,47,$25 - $49,0.7,Somewhat dissatisfied,Married,Own,Mastercard,No
+781,Male,62,50-64,19,College degree,Sales and Office,2 to 5,No,30,$25 - $49,16,Neutral,Unmarried,Rent,Visa,No
+782,Male,66,65+,8,Did not complete high school,Service,More than 15,Yes,9,Under $25,3.1,Somewhat satisfied,Unmarried,Rent,Mastercard,No
+783,Female,71,65+,15,Some college,Sales and Office,11 to 15,Yes,24,Under $25,13.9,Highly dissatisfied,Unmarried,Rent,Visa,No
+784,Female,32,25-34,10,Did not complete high school,Sales and Office,2 to 5,No,47,$25 - $49,9.6,Highly satisfied,Married,Own,Visa,No
+785,Male,51,50-64,12,High school degree,"Precision Production, Craft, Repair",More than 15,No,70,$50 - $74,17,Somewhat satisfied,Married,Own,Other,No
+786,Male,68,65+,15,Some college,Managerial and Professional,6 to 10,Yes,12,Under $25,25.2,Highly satisfied,Married,Own,Mastercard,No
+787,Female,19,18-24,14,High school degree,Sales and Office,Less than 2,No,27,$25 - $49,5.6,Highly dissatisfied,Married,Own,American Express,Yes
+788,Male,23,18-24,10,Did not complete high school,Service,2 to 5,No,39,$25 - $49,6.8,Highly dissatisfied,Married,Rent,American Express,No
+789,Male,58,50-64,8,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,No,84,$75 - $124,13,Somewhat dissatisfied,Unmarried,Own,Visa,No
+790,Male,70,65+,13,High school degree,Sales and Office,2 to 5,No,34,$25 - $49,33.3,Neutral,Married,Rent,Discover,No
+791,Male,18,18-24,12,High school degree,Managerial and Professional,Less than 2,No,24,Under $25,17.1,Highly dissatisfied,Unmarried,Rent,American Express,Yes
+792,Male,45,35-49,19,College degree,Managerial and Professional,6 to 10,No,107,$75 - $124,10.1,Somewhat dissatisfied,Married,Own,Discover,No
+793,Female,24,18-24,13,High school degree,Sales and Office,Less than 2,No,24,Under $25,13.2,Somewhat satisfied,Married,Own,Other,No
+794,Female,33,25-34,19,College degree,Managerial and Professional,2 to 5,No,43,$25 - $49,12.1,Somewhat dissatisfied,Married,Own,Mastercard,Yes
+795,Male,43,35-49,12,High school degree,Service,11 to 15,No,31,$25 - $49,12.5,Somewhat satisfied,Unmarried,Own,Discover,No
+796,Female,22,18-24,17,College degree,Sales and Office,Less than 2,No,29,$25 - $49,18.3,Neutral,Unmarried,Own,American Express,No
+797,Female,44,35-49,19,College degree,Sales and Office,2 to 5,No,139,$125+,8.7,Somewhat dissatisfied,Married,Own,Visa,Yes
+798,Female,24,18-24,16,Some college,Agricultural and Natural Resources,Less than 2,No,13,Under $25,2.6,Highly dissatisfied,Married,Own,Visa,No
+799,Female,20,18-24,10,Did not complete high school,Managerial and Professional,Less than 2,No,22,Under $25,11.5,Neutral,Married,Rent,Other,No
+800,Male,71,65+,17,College degree,"Operation, Fabrication, General Labor",More than 15,Yes,40,$25 - $49,6.7,Neutral,Married,Rent,Visa,No
+801,Male,75,65+,16,Some college,"Operation, Fabrication, General Labor",11 to 15,No,23,Under $25,20.4,Somewhat dissatisfied,Married,Own,Discover,No
+802,Female,66,65+,12,High school degree,Sales and Office,2 to 5,No,21,Under $25,19.5,Highly dissatisfied,Married,Own,Visa,No
+803,Female,43,35-49,12,High school degree,Service,11 to 15,No,38,$25 - $49,10.1,Neutral,Unmarried,Own,American Express,No
+804,Female,46,35-49,15,Some college,Managerial and Professional,2 to 5,No,59,$50 - $74,13.7,Neutral,Unmarried,Own,Visa,No
+805,Female,19,18-24,14,High school degree,"Precision Production, Craft, Repair",Less than 2,No,21,Under $25,4.2,Somewhat dissatisfied,Unmarried,Rent,Visa,No
+806,Male,49,35-49,14,High school degree,Sales and Office,6 to 10,No,55,$50 - $74,15.4,Neutral,Married,Rent,Visa,No
+807,Male,51,50-64,10,Did not complete high school,Service,6 to 10,No,26,$25 - $49,2.9,Neutral,Married,Rent,American Express,No
+808,Male,79,65+,10,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,13,Under $25,19.8,Neutral,Unmarried,Rent,Mastercard,No
+809,Female,57,50-64,14,High school degree,Sales and Office,2 to 5,No,48,$25 - $49,8.3,Somewhat satisfied,Married,Own,Discover,No
+810,Male,60,50-64,17,College degree,Managerial and Professional,2 to 5,No,57,$50 - $74,7.7,Somewhat satisfied,Married,Own,Discover,No
+811,Male,41,35-49,14,High school degree,"Precision Production, Craft, Repair",6 to 10,No,51,$50 - $74,15.4,Somewhat dissatisfied,Unmarried,Own,Visa,Yes
+812,Male,62,50-64,16,Some college,Managerial and Professional,6 to 10,No,55,$50 - $74,15.3,Somewhat satisfied,Married,Rent,Visa,No
+813,Female,74,65+,12,High school degree,Service,More than 15,Yes,79,$75 - $124,7.5,Somewhat satisfied,Unmarried,Rent,American Express,No
+814,Female,43,35-49,17,College degree,Sales and Office,6 to 10,No,45,$25 - $49,1.2,Highly satisfied,Unmarried,Rent,Discover,No
+815,Female,62,50-64,14,High school degree,Managerial and Professional,11 to 15,No,62,$50 - $74,9.3,Somewhat satisfied,Unmarried,Own,Visa,No
+816,Female,79,65+,12,High school degree,Service,More than 15,Yes,56,$50 - $74,9.5,Highly satisfied,Married,Rent,Discover,No
+817,Male,77,65+,10,Did not complete high school,Sales and Office,6 to 10,Yes,12,Under $25,11.8,Somewhat dissatisfied,Married,Own,Visa,No
+818,Female,56,50-64,17,College degree,Managerial and Professional,More than 15,No,129,$125+,0.4,Neutral,Unmarried,Rent,Discover,No
+819,Male,49,35-49,13,High school degree,Managerial and Professional,2 to 5,No,31,$25 - $49,4.2,Neutral,Unmarried,Own,Discover,No
+820,Male,33,25-34,18,College degree,Managerial and Professional,2 to 5,No,66,$50 - $74,8.3,Highly dissatisfied,Unmarried,Own,Visa,Yes
+821,Female,70,65+,13,High school degree,Sales and Office,6 to 10,Yes,9,Under $25,15.1,Somewhat satisfied,Unmarried,Own,Visa,No
+822,Female,43,35-49,17,College degree,Service,6 to 10,No,115,$75 - $124,19.8,Somewhat satisfied,Married,Own,Discover,Yes
+823,Female,42,35-49,15,Some college,Sales and Office,6 to 10,No,38,$25 - $49,5,Neutral,Married,Own,Mastercard,No
+824,Male,44,35-49,12,High school degree,Sales and Office,2 to 5,No,41,$25 - $49,16,Somewhat dissatisfied,Unmarried,Own,Visa,No
+825,Female,66,65+,13,High school degree,Managerial and Professional,More than 15,No,51,$50 - $74,6.6,Highly satisfied,Unmarried,Own,Mastercard,No
+826,Female,27,25-34,15,Some college,Sales and Office,Less than 2,No,24,Under $25,9.2,Highly dissatisfied,Married,Rent,Visa,Yes
+827,Female,20,18-24,11,Did not complete high school,"Precision Production, Craft, Repair",2 to 5,No,14,Under $25,9.1,Neutral,Unmarried,Own,Visa,No
+828,Male,38,35-49,17,College degree,Managerial and Professional,6 to 10,No,79,$75 - $124,18.1,Somewhat satisfied,Unmarried,Rent,American Express,Yes
+829,Female,68,65+,8,Did not complete high school,Sales and Office,6 to 10,Yes,18,Under $25,2,Highly dissatisfied,Unmarried,Rent,Mastercard,Yes
+830,Female,61,50-64,20,Post-undergraduate degree,Managerial and Professional,11 to 15,No,115,$75 - $124,10.6,Somewhat satisfied,Unmarried,Own,Discover,No
+831,Female,38,35-49,9,Did not complete high school,Agricultural and Natural Resources,More than 15,No,32,$25 - $49,5.7,Somewhat dissatisfied,Married,Own,Visa,No
+832,Male,79,65+,9,Did not complete high school,Agricultural and Natural Resources,More than 15,Yes,13,Under $25,0.5,Highly satisfied,Married,Rent,Visa,No
+833,Female,29,25-34,16,Some college,Managerial and Professional,2 to 5,No,43,$25 - $49,14.1,Somewhat dissatisfied,Unmarried,Own,Visa,Yes
+834,Female,18,18-24,9,Did not complete high school,Sales and Office,Less than 2,No,16,Under $25,13.4,Highly dissatisfied,Unmarried,Rent,Mastercard,Yes
+835,Female,65,65+,12,High school degree,"Precision Production, Craft, Repair",More than 15,Yes,11,Under $25,4.9,Neutral,Unmarried,Rent,Mastercard,No
+836,Male,37,35-49,15,Some college,Managerial and Professional,6 to 10,No,78,$75 - $124,17.1,Neutral,Married,Rent,Visa,No
+837,Male,47,35-49,14,High school degree,Service,More than 15,No,53,$50 - $74,12.9,Highly satisfied,Unmarried,Own,Discover,No
+838,Male,62,50-64,18,College degree,Managerial and Professional,11 to 15,No,65,$50 - $74,12.2,Neutral,Unmarried,Own,Discover,No
+839,Male,43,35-49,17,College degree,Sales and Office,6 to 10,No,47,$25 - $49,2.8,Neutral,Unmarried,Own,Discover,No
+840,Female,73,65+,7,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,26,$25 - $49,7.3,Neutral,Unmarried,Own,Visa,No
+841,Male,32,25-34,13,High school degree,Sales and Office,Less than 2,No,24,Under $25,20.4,Highly dissatisfied,Married,Own,American Express,No
+842,Female,35,35-49,11,Did not complete high school,Service,11 to 15,No,65,$50 - $74,17.2,Somewhat satisfied,Unmarried,Own,Discover,No
+843,Female,19,18-24,14,High school degree,Sales and Office,Less than 2,No,33,$25 - $49,3.7,Neutral,Married,Own,American Express,No
+844,Male,57,50-64,21,Post-undergraduate degree,"Operation, Fabrication, General Labor",More than 15,No,140,$125+,3.8,Somewhat dissatisfied,Unmarried,Rent,American Express,No
+845,Female,33,25-34,14,High school degree,Service,6 to 10,No,23,Under $25,2.9,Highly dissatisfied,Married,Rent,American Express,No
+846,Female,48,35-49,16,Some college,"Precision Production, Craft, Repair",11 to 15,No,95,$75 - $124,10.2,Highly satisfied,Unmarried,Rent,American Express,No
+847,Female,61,50-64,12,High school degree,"Precision Production, Craft, Repair",More than 15,No,246,$125+,8.2,Neutral,Married,Own,Mastercard,No
+848,Male,24,18-24,13,High school degree,Managerial and Professional,2 to 5,No,15,Under $25,8.4,Somewhat satisfied,Married,Own,Mastercard,Yes
+849,Female,44,35-49,10,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,No,80,$75 - $124,2.6,Highly satisfied,Married,Own,Visa,No
+850,Male,64,50-64,11,Did not complete high school,Managerial and Professional,11 to 15,No,58,$50 - $74,5.9,Highly satisfied,Married,Own,Visa,No
+851,Male,41,35-49,13,High school degree,Sales and Office,6 to 10,No,38,$25 - $49,13.1,Neutral,Married,Own,Visa,No
+852,Male,28,25-34,13,High school degree,Service,2 to 5,No,29,$25 - $49,11.6,Highly satisfied,Unmarried,Rent,Visa,Yes
+853,Female,59,50-64,15,Some college,Managerial and Professional,11 to 15,No,160,$125+,1.9,Neutral,Unmarried,Rent,Mastercard,No
+854,Female,56,50-64,13,High school degree,Service,11 to 15,No,67,$50 - $74,4,Highly satisfied,Unmarried,Own,Visa,No
+855,Female,58,50-64,17,College degree,Sales and Office,6 to 10,No,50,$50 - $74,21.3,Highly satisfied,Married,Rent,Mastercard,No
+856,Male,18,18-24,13,High school degree,Managerial and Professional,Less than 2,No,20,Under $25,6.3,Highly dissatisfied,Unmarried,Own,Other,Yes
+857,Male,46,35-49,8,Did not complete high school,"Precision Production, Craft, Repair",6 to 10,No,37,$25 - $49,7.2,Somewhat satisfied,Unmarried,Own,American Express,No
+858,Male,56,50-64,12,High school degree,Sales and Office,11 to 15,No,78,$75 - $124,5.5,Somewhat satisfied,Unmarried,Rent,Visa,No
+859,Male,18,18-24,9,Did not complete high school,Sales and Office,Less than 2,No,18,Under $25,5.9,Neutral,Unmarried,Rent,Mastercard,No
+860,Female,70,65+,18,College degree,Managerial and Professional,11 to 15,No,123,$75 - $124,2.9,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+861,Female,28,25-34,15,Some college,Sales and Office,Less than 2,No,22,Under $25,7.8,Somewhat dissatisfied,Married,Rent,Mastercard,No
+862,Male,37,35-49,11,Did not complete high school,Managerial and Professional,2 to 5,No,34,$25 - $49,12.7,Neutral,Unmarried,Rent,Other,Yes
+863,Male,24,18-24,15,Some college,Managerial and Professional,Less than 2,No,18,Under $25,7,Highly dissatisfied,Unmarried,Own,Discover,No
+864,Male,20,18-24,13,High school degree,Managerial and Professional,Less than 2,No,18,Under $25,10.4,Highly dissatisfied,Unmarried,Rent,American Express,Yes
+865,Female,62,50-64,14,High school degree,Managerial and Professional,6 to 10,No,45,$25 - $49,11.9,Highly dissatisfied,Married,Rent,Discover,No
+866,Female,30,25-34,8,Did not complete high school,Managerial and Professional,2 to 5,No,28,$25 - $49,1.9,Neutral,Unmarried,Rent,Mastercard,No
+867,Male,69,65+,12,High school degree,Sales and Office,2 to 5,Yes,12,Under $25,9.8,Somewhat dissatisfied,Married,Own,Mastercard,No
+868,Male,37,35-49,14,High school degree,"Operation, Fabrication, General Labor",6 to 10,No,85,$75 - $124,11.5,Somewhat dissatisfied,Married,Own,Visa,Yes
+869,Female,29,25-34,11,Did not complete high school,Managerial and Professional,2 to 5,No,35,$25 - $49,21,Neutral,Unmarried,Own,Discover,Yes
+870,Female,54,50-64,14,High school degree,Service,11 to 15,No,108,$75 - $124,7.9,Highly satisfied,Married,Own,Discover,No
+871,Male,26,25-34,12,High school degree,Managerial and Professional,2 to 5,No,18,Under $25,9.5,Highly dissatisfied,Unmarried,Own,Visa,Yes
+872,Female,29,25-34,22,Post-undergraduate degree,Sales and Office,Less than 2,No,31,$25 - $49,2.8,Highly dissatisfied,Married,Own,Discover,Yes
+873,Male,53,50-64,11,Did not complete high school,Managerial and Professional,11 to 15,No,52,$50 - $74,13.7,Highly satisfied,Married,Own,Mastercard,No
+874,Female,19,18-24,14,High school degree,Service,Less than 2,No,20,Under $25,10.6,Somewhat dissatisfied,Unmarried,Own,Visa,No
+875,Male,51,50-64,8,Did not complete high school,Service,More than 15,No,100,$75 - $124,21.6,Highly satisfied,Married,Own,Discover,No
+876,Female,49,35-49,11,Did not complete high school,Managerial and Professional,11 to 15,No,70,$50 - $74,15.2,Somewhat satisfied,Married,Own,Mastercard,No
+877,Male,50,50-64,8,Did not complete high school,Managerial and Professional,More than 15,No,98,$75 - $124,8.1,Somewhat satisfied,Married,Rent,Discover,No
+878,Male,53,50-64,14,High school degree,Managerial and Professional,2 to 5,No,34,$25 - $49,13.7,Neutral,Married,Own,Discover,No
+879,Male,71,65+,12,High school degree,Service,More than 15,No,124,$75 - $124,9.3,Highly satisfied,Married,Own,Visa,No
+880,Female,25,25-34,13,High school degree,Agricultural and Natural Resources,2 to 5,No,21,Under $25,2.8,Somewhat dissatisfied,Unmarried,Own,Mastercard,No
+881,Female,57,50-64,11,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,No,44,$25 - $49,5,Somewhat dissatisfied,Married,Own,Mastercard,No
+882,Male,32,25-34,11,Did not complete high school,Managerial and Professional,6 to 10,No,37,$25 - $49,18.9,Neutral,Married,Own,Mastercard,Yes
+883,Female,54,50-64,13,High school degree,Service,More than 15,No,136,$125+,4.1,Highly dissatisfied,Unmarried,Own,Visa,No
+884,Female,66,65+,8,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,24,Under $25,2.4,Highly dissatisfied,Unmarried,Own,Visa,No
+885,Female,71,65+,15,Some college,Sales and Office,2 to 5,No,49,$25 - $49,6.9,Neutral,Unmarried,Own,Discover,No
+886,Male,43,35-49,16,Some college,Sales and Office,Less than 2,No,81,$75 - $124,9.7,Highly dissatisfied,Unmarried,Rent,Visa,Yes
+887,Male,77,65+,9,Did not complete high school,Sales and Office,11 to 15,Yes,19,Under $25,12,Highly dissatisfied,Married,Own,Mastercard,No
+888,Female,54,50-64,19,College degree,Sales and Office,6 to 10,No,59,$50 - $74,7.5,Neutral,Married,Own,Discover,No
+889,Male,63,50-64,14,High school degree,Service,More than 15,No,153,$125+,9,Highly satisfied,Married,Own,American Express,No
+890,Male,53,50-64,16,Some college,Sales and Office,6 to 10,No,35,$25 - $49,14.9,Highly satisfied,Unmarried,Own,Visa,No
+891,Female,34,25-34,19,College degree,Service,6 to 10,No,40,$25 - $49,3.2,Highly dissatisfied,Unmarried,Own,Mastercard,No
+892,Male,34,25-34,16,Some college,"Precision Production, Craft, Repair",6 to 10,No,23,Under $25,11.9,Somewhat dissatisfied,Unmarried,Rent,Visa,No
+893,Male,67,65+,6,Did not complete high school,Managerial and Professional,11 to 15,Yes,12,Under $25,6.4,Neutral,Married,Own,Mastercard,No
+894,Female,38,35-49,8,Did not complete high school,Service,6 to 10,No,31,$25 - $49,5.2,Somewhat dissatisfied,Married,Own,Visa,No
+895,Male,21,18-24,12,High school degree,Sales and Office,Less than 2,No,25,$25 - $49,7.3,Highly dissatisfied,Unmarried,Own,American Express,Yes
+896,Female,52,50-64,12,High school degree,Managerial and Professional,More than 15,No,212,$125+,10.2,Somewhat satisfied,Married,Own,Discover,No
+897,Female,43,35-49,13,High school degree,"Operation, Fabrication, General Labor",11 to 15,No,33,$25 - $49,2.3,Somewhat satisfied,Unmarried,Own,American Express,No
+898,Female,41,35-49,15,Some college,Sales and Office,Less than 2,No,25,$25 - $49,10,Highly dissatisfied,Unmarried,Rent,Mastercard,No
+899,Female,79,65+,11,Did not complete high school,"Operation, Fabrication, General Labor",More than 15,Yes,21,Under $25,21.7,Highly satisfied,Unmarried,Own,Other,No
+900,Female,63,50-64,11,Did not complete high school,Sales and Office,2 to 5,No,44,$25 - $49,4.9,Somewhat dissatisfied,Married,Own,Other,No
+901,Female,32,25-34,14,High school degree,Sales and Office,2 to 5,No,21,Under $25,1.5,Somewhat dissatisfied,Married,Rent,Mastercard,Yes
+902,Female,59,50-64,13,High school degree,Sales and Office,6 to 10,No,26,$25 - $49,17.6,Neutral,Unmarried,Own,Visa,Yes
+903,Male,58,50-64,10,Did not complete high school,Managerial and Professional,11 to 15,No,71,$50 - $74,5.4,Neutral,Married,Own,Visa,No
+904,Female,41,35-49,14,High school degree,"Precision Production, Craft, Repair",11 to 15,No,104,$75 - $124,0.1,Somewhat satisfied,Unmarried,Own,Visa,No
+905,Male,64,50-64,12,High school degree,Managerial and Professional,More than 15,Yes,19,Under $25,3.1,Somewhat satisfied,Married,Rent,Discover,No
+906,Female,75,65+,16,Some college,Service,More than 15,Yes,14,Under $25,16.5,Neutral,Married,Own,Visa,No
+907,Female,23,18-24,15,Some college,Sales and Office,Less than 2,No,29,$25 - $49,7.2,Neutral,Married,Own,Discover,No
+908,Male,59,50-64,9,Did not complete high school,Managerial and Professional,11 to 15,No,45,$25 - $49,13,Highly satisfied,Married,Rent,Mastercard,No
